@@ -5,3 +5,4 @@ service-account.json
 *.txt
 .DS_Store
 /tmp/
+blog-post.md
