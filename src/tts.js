@@ -8,7 +8,6 @@
 const textToSpeech = require('@google-cloud/text-to-speech');
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
 
 /**
  * Split script into chunks under the byte limit
