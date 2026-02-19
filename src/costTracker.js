@@ -5,7 +5,6 @@
  */
 
 const fs = require('fs');
-const path = require('path');
 
 // Cost rates (as of Feb 2026)
 const RATES = {

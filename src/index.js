@@ -214,7 +214,7 @@ async function runWithRetry(maxRetries = 2) {
       }
       await run();
       return;
-    } catch (error) {
+    } catch {
       if (attempt <= maxRetries) {
         const delaySec = attempt * 5;
         console.error(`Attempt ${attempt} failed. Retrying in ${delaySec}s...`);
