@@ -56,6 +56,10 @@ async function run() {
   console.log('='.repeat(60));
   console.log();
 
+  const required = ['GITHUB_PAGES_BASE_URL', 'GITHUB_REPOSITORY', 'GITHUB_TOKEN'];
+  const missing = required.filter(k => !process.env[k]);
+  if (missing.length) throw new Error(`Missing required env vars: ${missing.join(', ')}`);
+
   const startTime = Date.now();
   const costTracker = new CostTracker();
 
@@ -187,13 +191,35 @@ async function run() {
     console.error('='.repeat(60));
     console.error(error);
     console.error();
-    process.exit(1);
+    throw error;
+  }
+}
+
+async function runWithRetry(maxRetries = 2) {
+  for (let attempt = 1; attempt <= maxRetries + 1; attempt++) {
+    try {
+      if (attempt > 1) {
+        console.log(`Retry attempt ${attempt - 1}/${maxRetries}...`);
+        console.log();
+      }
+      await run();
+      return;
+    } catch (error) {
+      if (attempt <= maxRetries) {
+        const delaySec = attempt * 5;
+        console.error(`Attempt ${attempt} failed. Retrying in ${delaySec}s...`);
+        await new Promise(resolve => setTimeout(resolve, delaySec * 1000));
+      } else {
+        console.error('All retry attempts exhausted. Exiting.');
+        process.exit(1);
+      }
+    }
   }
 }
 
 // Run if called directly
 if (require.main === module) {
-  run().catch(console.error);
+  runWithRetry();
 }
 
 module.exports = { run };

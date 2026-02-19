@@ -21,7 +21,8 @@ async function fetchDatabricksReleaseNotes() {
 
   try {
     const { data } = await axios.get('https://docs.databricks.com/en/release-notes/index.html', {
-      headers: { 'User-Agent': USER_AGENT }
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 10000
     });
 
     const $ = cheerio.load(data);
@@ -53,7 +54,8 @@ async function fetchDatabricksBlog() {
 
   try {
     const { data } = await axios.get('https://www.databricks.com/feed', {
-      headers: { 'User-Agent': USER_AGENT }
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 10000
     });
 
     const $ = cheerio.load(data, { xmlMode: true });
@@ -87,7 +89,8 @@ async function fetchDatabricksNewsroom() {
 
   try {
     const { data } = await axios.get('https://www.databricks.com/company/newsroom', {
-      headers: { 'User-Agent': USER_AGENT }
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 10000
     });
 
     const $ = cheerio.load(data);
@@ -144,7 +147,7 @@ async function fetchDatabricksExecTweets() {
         // Get user ID first
         const userRes = await axios.get(
           `https://api.twitter.com/2/users/by/username/${username}`,
-          { headers: { Authorization: `Bearer ${token}` } }
+          { headers: { Authorization: `Bearer ${token}` }, timeout: 10000 }
         );
         apiCalls++; // Count user lookup API call
 
@@ -157,7 +160,7 @@ async function fetchDatabricksExecTweets() {
         // Get recent tweets
         const tweetsRes = await axios.get(
           `https://api.twitter.com/2/users/${userId}/tweets?max_results=10&tweet.fields=created_at`,
-          { headers: { Authorization: `Bearer ${token}` } }
+          { headers: { Authorization: `Bearer ${token}` }, timeout: 10000 }
         );
         apiCalls++; // Count tweets fetch API call
 
@@ -194,7 +197,8 @@ async function fetchDatabricksExecTweets() {
 async function fetchRSSFeed(url, sourceName, maxItems = 5) {
   try {
     const { data } = await axios.get(url, {
-      headers: { 'User-Agent': USER_AGENT }
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 10000
     });
 
     const $ = cheerio.load(data, { xmlMode: true });
@@ -225,7 +229,8 @@ async function fetchRSSFeed(url, sourceName, maxItems = 5) {
 async function scrapeBlog(url, sourceName, selectors, maxItems = 5) {
   try {
     const { data } = await axios.get(url, {
-      headers: { 'User-Agent': USER_AGENT }
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 10000
     });
 
     const $ = cheerio.load(data);
@@ -269,7 +274,8 @@ async function fetchAnthropicNews() {
 
   try {
     const { data } = await axios.get('https://www.anthropic.com/news', {
-      headers: { 'User-Agent': USER_AGENT }
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 10000
     });
 
     const $ = cheerio.load(data);
@@ -371,7 +377,8 @@ async function fetchHackerNewsAI() {
 
   try {
     const { data: topStories } = await axios.get(
-      'https://hacker-news.firebaseio.com/v0/topstories.json'
+      'https://hacker-news.firebaseio.com/v0/topstories.json',
+      { timeout: 10000 }
     );
 
     const items = [];
@@ -380,7 +387,7 @@ async function fetchHackerNewsAI() {
                         'databricks'];
 
     const storyPromises = topStories.slice(0, 30).map(id =>
-      axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
+      axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json`, { timeout: 10000 })
         .then(res => res.data)
         .catch(() => null)
     );
@@ -417,7 +424,7 @@ async function fetchHackerNewsAI() {
 async function fetchArxivAI() {
   console.log('Fetching arXiv AI papers...');
   return fetchRSSFeed(
-    'http://export.arxiv.org/rss/cs.AI',
+    'https://export.arxiv.org/rss/cs.AI',
     'arXiv CS.AI',
     3
   );
