@@ -19,11 +19,12 @@ const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
 const { publishEpisode } = require('./githubCommitter');
 const { CostTracker } = require('./costTracker');
+const { updateTTSUsage } = require('./ttsUsageTracker');
 
-const BASE_URL = process.env.GITHUB_PAGES_BASE_URL;
+const BASE_URL = process.env.PAGES_BASE_URL;
 const REPO = process.env.GITHUB_REPOSITORY;
 const GH_TOKEN = process.env.GITHUB_TOKEN;
-const PODCAST_TITLE = process.env.PODCAST_TITLE || 'The Data & AI Daily';
+const PODCAST_TITLE = process.env.PODCAST_TITLE || 'Daily Databricks and AI Podcast';
 const PODCAST_AUTHOR = process.env.PODCAST_AUTHOR || 'Unknown';
 
 /**
@@ -50,15 +51,17 @@ async function getCurrentFeed() {
   }
 }
 
-async function run() {
+async function run({ dryRun = false } = {}) {
   console.log('='.repeat(60));
   console.log('Starting Daily AI Audio Briefing Pipeline');
   console.log('='.repeat(60));
   console.log();
 
-  const required = ['GITHUB_PAGES_BASE_URL', 'GITHUB_REPOSITORY', 'GITHUB_TOKEN'];
-  const missing = required.filter(k => !process.env[k]);
-  if (missing.length) throw new Error(`Missing required env vars: ${missing.join(', ')}`);
+  if (!dryRun) {
+    const required = ['PAGES_BASE_URL', 'GITHUB_REPOSITORY', 'GITHUB_TOKEN'];
+    const missing = required.filter(k => !process.env[k]);
+    if (missing.length) throw new Error(`Missing required env vars: ${missing.join(', ')}`);
+  }
 
   const startTime = Date.now();
   const costTracker = new CostTracker();
@@ -133,6 +136,23 @@ async function run() {
     // Estimate duration: MP3 at 128 kbps = (fileSize * 8 bits) / (128,000 bits/sec)
     const durationSeconds = Math.round((fileSizeBytes * 8) / (128 * 1000));
 
+    if (dryRun) {
+      // Dry run — skip RSS and publishing
+      const duration = ((Date.now() - startTime) / 1000).toFixed(2);
+      console.log('='.repeat(60));
+      console.log('DRY RUN COMPLETE (no publish)');
+      console.log('='.repeat(60));
+      console.log(`  Duration: ${duration}s`);
+      console.log(`  Items processed: ${totalItems}`);
+      console.log(`  Script words: ${wordCount}`);
+      console.log(`  Script file: ${scriptPath}`);
+      console.log(`  Audio file: ${finalAudioPath}`);
+      console.log();
+      costTracker.printSummary();
+      costTracker.logToFile('/tmp/podcast-costs.jsonl');
+      return;
+    }
+
     // 4. Build updated RSS feed
     console.log('STEP 4: Building RSS feed...');
     console.log();
@@ -141,7 +161,7 @@ async function run() {
     const updatedFeed = buildUpdatedFeed(
       existingFeed,
       {
-        title: `The Data & AI Daily — ${dateStr}`,
+        title: `${PODCAST_TITLE} — ${dateStr}`,
         date: dateStr, // Use Central Time date
         fileName: episodeFileName,
         fileSizeBytes,
@@ -168,7 +188,7 @@ async function run() {
     // Summary
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
     console.log('='.repeat(60));
-    console.log('✅ PIPELINE COMPLETE!');
+    console.log('PIPELINE COMPLETE!');
     console.log('='.repeat(60));
     console.log(`  Duration: ${duration}s`);
     console.log(`  Items processed: ${totalItems}`);
@@ -177,12 +197,21 @@ async function run() {
     console.log(`  Episode URL: ${BASE_URL}/episodes/${episodeFileName}`);
     console.log(`  RSS feed: ${BASE_URL}/feed.xml`);
     console.log();
-    console.log('🎉 Episode published! Subscribe in your podcast app:');
+    console.log('Episode published! Subscribe in your podcast app:');
     console.log(`   ${BASE_URL}/feed.xml`);
 
     // Print cost summary and log to file
     costTracker.printSummary();
     costTracker.logToFile('/tmp/podcast-costs.jsonl');
+
+    // Persist TTS usage to gh-pages and check free-tier thresholds
+    console.log('Tracking TTS usage...');
+    try {
+      await updateTTSUsage(ttsCharacters);
+    } catch (err) {
+      console.error(`  Failed to update TTS usage tracking: ${err.message}`);
+    }
+    console.log();
 
   } catch (error) {
     console.error();
@@ -195,17 +224,16 @@ async function run() {
   }
 }
 
-async function runWithRetry(maxRetries = 2) {
+async function runWithRetry({ dryRun = false, maxRetries = 2 } = {}) {
   for (let attempt = 1; attempt <= maxRetries + 1; attempt++) {
     try {
       if (attempt > 1) {
         console.log(`Retry attempt ${attempt - 1}/${maxRetries}...`);
         console.log();
       }
-      await run();
+      await run({ dryRun });
       return;
-    } catch (error) {
-      console.error(`Attempt ${attempt} failed: ${error.message}`);
+    } catch {
       if (attempt <= maxRetries) {
         const delaySec = attempt * 5;
         console.error(`Retrying in ${delaySec}s...`);
@@ -220,7 +248,12 @@ async function runWithRetry(maxRetries = 2) {
 
 // Run if called directly
 if (require.main === module) {
-  runWithRetry();
+  const dryRun = process.argv.includes('--dry-run');
+  if (dryRun) {
+    console.log('*** DRY RUN MODE — will not publish to RSS/GitHub Pages ***');
+    console.log();
+  }
+  runWithRetry({ dryRun });
 }
 
 module.exports = { run };

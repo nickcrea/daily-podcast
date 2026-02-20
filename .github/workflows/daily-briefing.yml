@@ -2,9 +2,9 @@ name: Daily AI Briefing
 
 on:
   schedule:
-    # Run at 12:15 PM UTC, Monday-Friday
-    # (6:15 AM CST / 7:15 AM CDT)
-    - cron: '15 12 * * 1-5'
+    # Run at 11:00 AM UTC every day
+    # (5:00 AM CST / 6:00 AM CDT)
+    - cron: '0 11 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 # Required so the Action can commit to gh-pages
@@ -37,7 +37,7 @@ jobs:
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_PAGES_BASE_URL: ${{ vars.GITHUB_PAGES_BASE_URL }}
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
           PODCAST_TITLE: ${{ vars.PODCAST_TITLE }}
           PODCAST_AUTHOR: ${{ secrets.PODCAST_AUTHOR }}
         run: node src/index.js
