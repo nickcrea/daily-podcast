@@ -96,7 +96,7 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 2: Synthesizing audio script...');
     console.log();
 
-    const { script, usage: claudeUsage } = await synthesizeScript(contentBundle);
+    const { script, summary, usage: claudeUsage } = await synthesizeScript(contentBundle);
     const wordCount = script.split(/\s+/).length;
 
     // Track Claude costs
@@ -166,7 +166,7 @@ async function run({ dryRun = false } = {}) {
         fileName: episodeFileName,
         fileSizeBytes,
         durationSeconds,
-        description: script.slice(0, 250) + '...',
+        description: summary,
       },
       BASE_URL,
       {
@@ -236,7 +236,7 @@ async function runWithRetry({ dryRun = false, maxRetries = 2 } = {}) {
     } catch {
       if (attempt <= maxRetries) {
         const delaySec = attempt * 5;
-        console.error(`Attempt ${attempt} failed. Retrying in ${delaySec}s...`);
+        console.error(`Retrying in ${delaySec}s...`);
         await new Promise(resolve => setTimeout(resolve, delaySec * 1000));
       } else {
         console.error('All retry attempts exhausted. Exiting.');
