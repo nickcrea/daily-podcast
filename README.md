@@ -339,7 +339,8 @@ convertToAudio(longScript, '/tmp/test.mp3').then(() => console.log('Done'));
 
 ## 📖 Blog Post
 
-For a detailed writeup on how this was built using "vibe coding" with Claude Code, see [`blog-post.md`](./blog-post.md) (not committed to repo).
+For a detailed writeup on how this was built using "vibe coding" with Claude Code, see [`How I Built a Databricks & AI Industry Podcast with Claude Code in One Afternoon
+](https://medium.com/@tyler.n.watson/how-i-built-a-personal-databricks-ai-industry-podcast-with-claude-code-in-one-afternoon-8e2035740c7d).
 
 ## 📄 License
 
