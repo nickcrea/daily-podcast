@@ -136,7 +136,7 @@ https://yourusername.github.io/yourrepo/feed.xml
 
 Enable **auto-download** in app settings so episodes are ready when you wake up.
 
-**Note:** Spotify requires manual submission at [podcasters.spotify.com](https://podcasters.spotify.com) (RSS feed includes required iTunes tags and owner email).
+**Spotify:** [Listen on Spotify](https://open.spotify.com/show/4p5vgnRnYD6koHrkZQqhJ0) — or submit your own feed at [podcasters.spotify.com](https://podcasters.spotify.com) (RSS feed includes required iTunes tags and owner email).
 
 ## 📁 Project Structure
 
@@ -350,7 +350,7 @@ MIT License - Feel free to use and modify for your own podcast automation!
 
 Tyler
 - Email: [howdy@tyler.rodeo](mailto:howdy@tyler.rodeo)
-- Podcast: [The Data & AI Daily](https://tylernwatson.github.io/daily-podcast/feed.xml)
+- Podcast: [The Data & AI Daily](https://tylernwatson.github.io/daily-podcast/feed.xml) | [Spotify](https://open.spotify.com/show/4p5vgnRnYD6koHrkZQqhJ0)
 
 ---
 
