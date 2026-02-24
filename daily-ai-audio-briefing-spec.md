@@ -2,7 +2,7 @@
 
 ## Overview
 
-Build an automated pipeline that runs daily, scrapes Databricks release notes and top AI news, synthesizes a spoken-word script using Claude, converts it to audio via Google Cloud TTS, and publishes the MP3 + RSS feed to GitHub Pages — making it subscribable in any podcast app (Spotify, Apple Podcasts, Pocket Casts, Overcast, etc.).
+Build an automated pipeline that runs weekdays, scrapes Databricks release notes and top AI news, synthesizes a two-host spoken-word script using Claude, converts it to audio via Google Cloud TTS (with separate voices for each host), and publishes the MP3 + RSS feed to GitHub Pages — making it subscribable in any podcast app (Spotify, Apple Podcasts, Pocket Casts, Overcast, etc.).
 
 **Built with Claude Code** — this entire project was developed using Anthropic's Claude Code CLI tool.
 
@@ -39,7 +39,7 @@ Cron Job (daily via GitHub Actions)
 - **Runtime**: Node.js (≥20)
 - **Scheduler**: GitHub Actions (free, cloud-hosted cron)
 - **LLM**: Anthropic Claude API (`claude-sonnet-4-6` or `claude-sonnet-4-5`)
-- **TTS**: Google Cloud Text-to-Speech API (Journey-D voice - WaveNet/Neural quality)
+- **TTS**: Google Cloud Text-to-Speech API (Studio-O + Studio-Q voices for two-host format)
 - **Hosting**: GitHub Pages (free, no extra account needed)
 - **Delivery**: Any podcast app via RSS 2.0 feed with iTunes tags
 - **Testing**: Jest (unit tests for cost tracking, RSS generation, etc.)
@@ -50,8 +50,8 @@ Cron Job (daily via GitHub Actions)
 
 | Service | Usage | Cost/episode |
 |---------|-------|--------------|
-| Claude Sonnet 4.5/4.6 | ~8,000 input + 1,500 output tokens | $0.024 + $0.023 = $0.047 |
-| Google TTS (Journey-D) | ~9,000 characters | $0.00 (free tier — ~270K/month, well within 1M free WaveNet chars) |
+| Claude Sonnet 4.6 + Haiku 4.5 | ~8,000 input + 2,500 output tokens (script) + summary call | ~$0.05 |
+| Google TTS (Studio-O + Studio-Q) | ~9,000 characters | $0.00 (free tier — ~270K/month, well within 1M free WaveNet chars) |
 | Twitter/X API v2 (optional) | ~6 API calls | $0.0009 |
 | Open-Meteo weather API | 1 call/day | Free |
 | GitHub Actions | ~4 min runtime | Free |
@@ -178,151 +178,111 @@ async function fetchWeather(lat, lon, timezone) {
 
 ### 4. Script Synthesis (`src/synthesizer.js`)
 
-Send all content to Claude Sonnet 4.6 with a detailed prompt:
+Send all content to Claude Sonnet 4.6 with a detailed two-host prompt. The synthesizer also fetches Austin weather from Open-Meteo and makes a second API call (Haiku 4.5) to generate a listener-facing episode summary.
+
+**Key implementation details:**
+- Two-host format: Script uses `[HOST]` and `[COHOST]` speaker tags
+- HOST is the primary anchor; COHOST adds reactions, counterpoints, and color
+- Weather is fetched from Open-Meteo API (free, no key) and woven into the cold open naturally
+- A second Claude call (Haiku 4.5) generates a 2-3 sentence episode summary for the RSS description
+- Combined token usage from both calls is tracked for cost reporting
 
 ```javascript
 const Anthropic = require('@anthropic-ai/sdk');
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY, timeout: 60000 });
 
 async function synthesizeScript(contentBundle) {
-  const now = new Date();
-  const localTime = new Date(now.toLocaleString('en-US', {
-    timeZone: 'America/Chicago'  // Change to your timezone
-  }));
-  const today = localTime.toLocaleDateString('en-US', {
-    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  const today = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+    timeZone: 'America/Chicago',
   });
 
-  const weather = await fetchWeather(30.2672, -97.7431, 'America/Chicago');
-  const weatherSummary = `${weather.description}, currently ${weather.current}°F, ` +
-    `high of ${weather.high}°F, low of ${weather.low}°F, ` +
-    `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
+  const weather = await fetchAustinWeather();  // Open-Meteo API
+  const weatherSummary = `${weather.description}, currently ${weather.current}°F, ...`;
 
-  const prompt = `You are the host of a personal morning podcast.
-Today is ${today}. Your listener is based in [CITY].
-
-[CITY] weather right now: ${weatherSummary}
-
-Below is content gathered from Databricks sources (blog, newsroom, release notes, exec posts)
-and core AI/ML news sources (major outlets, lab blogs, startup news).
-
-YOUR TASK:
-Produce a complete, ready-to-record podcast script for an 8–12 minute episode.
-
-STRUCTURE (follow exactly):
-──────────────────────────────────────────────
-[COLD OPEN — 15–30 seconds]
-- Greet your listener by name
-- One sentence on today's episode theme
-- Weave in weather naturally (not as a report)
-
-[THEME SEGMENTS — 3 to 6 segments, ~1–2 minutes each]
-Cluster news into 3–6 themes. Example themes:
-"Databricks Product Updates", "LLM Breakthroughs", "Startup Moves"
-
-For each segment:
-- Open with punchy 1-sentence framing
-- Explain what happened, why it matters, who it impacts
-- Connect Databricks news to broader AI landscape
-- Add confident commentary with opinions
-- Use first-person ("I think", "what's interesting here")
-- Address listener by name 1-2 times across full episode
-- Natural transitions between segments
-
-[WRAP-UP — 15–30 seconds]
-- Quick recap of 1-2 biggest themes
-- Preview what to watch for coming days
-- Warm, personal sign-off
-
-STYLE RULES:
-──────────────────────────────────────────────
-- Write for the ear, not eye. Short sentences. Active voice.
-- NO bullet points, URLs, markdown, or stage directions
-- Conversational and smart - like an excited colleague
-- Don't pad with filler. If slow news day, say so and go deeper
-- Target: 1,200–1,800 words (8–12 minutes at natural pace)
-- Return ONLY the spoken script. No labels, headers, or brackets.
-
-RAW CONTENT:
-──────────────────────────────────────────────
-${JSON.stringify(contentBundle, null, 2)}
-
-Return ONLY the spoken script.`;
-
+  // Main script generation (Sonnet 4.6)
   const message = await client.messages.create({
     model: 'claude-sonnet-4-6',
     max_tokens: 2500,
-    messages: [{ role: 'user', content: prompt }]
+    messages: [{ role: 'user', content: prompt }],  // Two-host prompt with [HOST]/[COHOST] format
+  });
+  const script = message.content[0].text;
+
+  // Episode summary (Haiku 4.5)
+  const summaryMessage = await client.messages.create({
+    model: 'claude-haiku-4-5-20251001',
+    max_tokens: 150,
+    messages: [{ role: 'user', content: `Summarize this podcast episode in 2-3 sentences...\n${script}` }],
   });
 
   return {
-    script: message.content[0].text,
+    script,
+    summary: summaryMessage.content[0].text.trim(),
     usage: {
-      inputTokens: message.usage.input_tokens,
-      outputTokens: message.usage.output_tokens
-    }
+      inputTokens: message.usage.input_tokens + summaryMessage.usage.input_tokens,
+      outputTokens: message.usage.output_tokens + summaryMessage.usage.output_tokens,
+    },
   };
 }
 ```
 
 **Customization points:**
-- Change `[CITY]` to your city
-- Adjust timezone in `toLocaleString()` and `fetchWeather()`
-- Modify weather coordinates
-- Change listener name in prompt
+- Change city name and coordinates in `fetchAustinWeather()`
+- Adjust timezone in `toLocaleDateString()`
+- Change listener name in prompt (currently "Tyler")
 - Adjust `max_tokens` if scripts get truncated (try 3500)
+- Modify host/cohost dynamic in the prompt
 
 ---
 
 ### 5. Text-to-Speech (`src/tts.js`)
 
-Convert script to MP3 using Google Cloud TTS:
+Convert two-host script to MP3 using Google Cloud TTS. The script is parsed by `[HOST]`/`[COHOST]` tags, and each speaker segment is synthesized with a different voice:
 
 ```javascript
 const textToSpeech = require('@google-cloud/text-to-speech');
-const fs = require('fs');
+
+const VOICE_CONFIGS = {
+  HOST: { languageCode: 'en-US', name: 'en-US-Studio-O' },
+  COHOST: { languageCode: 'en-US', name: 'en-US-Studio-Q' },
+};
 
 async function convertToAudio(script, outputPath) {
   const client = new textToSpeech.TextToSpeechClient();
 
-  // Google TTS has a 5000 byte limit, so chunk if needed
-  const scriptBytes = Buffer.byteLength(script, 'utf8');
+  // Parse script into ordered speaker segments
+  const segments = parseScriptBySpeaker(script);  // Returns [{ speaker, text }, ...]
 
-  if (scriptBytes <= 5000) {
-    // Single request
-    const [response] = await client.synthesizeSpeech({
-      input: { text: script },
-      voice: {
-        languageCode: 'en-US',
-        name: 'en-US-Journey-D'  // Best male voice. Try Journey-F for female
-      },
-      audioConfig: {
-        audioEncoding: 'MP3',
-        speakingRate: 1.05,
-        pitch: 0
-      }
-    });
-    fs.writeFileSync(outputPath, response.audioContent, 'binary');
-  } else {
-    // Chunking logic here (see full implementation in repo)
-    // Split on sentence boundaries, process chunks, concatenate MP3s
+  for (const { speaker, text } of segments) {
+    const voiceConfig = VOICE_CONFIGS[speaker];
+    // Chunk segments > 4500 bytes on sentence boundaries
+    const chunks = segmentBytes > 4500 ? chunkScript(text, 4500) : [text];
+
+    for (const chunk of chunks) {
+      const [response] = await client.synthesizeSpeech({
+        input: { text: chunk },
+        voice: voiceConfig,
+        audioConfig: {
+          audioEncoding: 'MP3',
+          pitch: 0,
+          effectsProfileId: ['large-home-entertainment-class-device']
+        },
+      });
+      // Write chunk, then concatenate all MP3 chunks at the end
+    }
   }
-
-  return {
-    outputPath,
-    characters: scriptBytes
-  };
 }
 ```
 
 **Voice options:**
-- `en-US-Journey-D` - Deep male voice (recommended)
+- `en-US-Studio-O` - Male studio voice (current HOST)
+- `en-US-Studio-Q` - Male studio voice (current COHOST)
+- `en-US-Journey-D` - Deep male voice
 - `en-US-Journey-F` - Female voice
 - `en-US-Neural2-A` - Alternative male (75% cheaper, slightly lower quality)
-- `en-US-Studio-M` - Male studio voice
 
 **Costs:**
-- Journey voices: $16 per million characters (WaveNet quality)
+- Studio/Journey voices: $16 per million characters (WaveNet quality)
 - Neural2 voices: $4 per million characters (standard quality)
 
 ---
@@ -571,7 +531,7 @@ name: Daily AI Briefing
 
 on:
   schedule:
-    - cron: '0 11 * * *'       # 11:00 AM UTC = 5:00 AM CST / 6:00 AM CDT (daily)
+    - cron: '30 11 * * 1-5'     # 11:30 AM UTC = 5:30 AM CST / 6:30 AM CDT (weekdays only)
   workflow_dispatch:            # Allow manual trigger
 
 permissions:
@@ -723,14 +683,16 @@ daily-podcast/
 ├── scripts/
 │   └── cost-report.js           # Cost report generator
 ├── src/
-│   ├── index.js                 # Main orchestrator
-│   ├── fetcher.js               # Content scraping
-│   ├── synthesizer.js           # Claude API + prompt
-│   ├── tts.js                   # Google TTS
+│   ├── index.js                 # Main orchestrator with retry logic
+│   ├── fetcher.js               # Content scraping (13+ sources)
+│   ├── synthesizer.js           # Claude API two-host script + Haiku summary
+│   ├── tts.js                   # Google TTS with two-voice per-speaker synthesis
 │   ├── publisher.js             # RSS feed builder
 │   ├── githubCommitter.js       # GitHub API commits
 │   ├── costTracker.js           # Per-run cost tracking
-│   └── ttsUsageTracker.js      # Monthly TTS usage tracking (persisted to gh-pages)
+│   ├── ttsUsageTracker.js       # Monthly TTS usage tracking (persisted to gh-pages)
+│   ├── weather.js               # Austin weather via wttr.in (standalone)
+│   └── uploader.js              # File upload utilities
 ├── tests/
 │   ├── costTracker.test.js
 │   ├── publisher.test.js
@@ -792,11 +754,11 @@ GitHub doesn't allow repository variables starting with "GITHUB_".
 - Logs are in Actions tab - use `gh run view --log` for CLI access
 
 ### 9. Google Cloud TTS
-- 1M free WaveNet/Journey characters per month — daily episodes stay well within this
-- Journey voices may require `v1beta1` endpoint
-- 5000 byte limit per request - implement chunking for longer scripts
-- Speaking rate 1.05-1.1 sounds more natural than 1.0
-- Test different voices - Journey-D (male), Journey-F (female)
+- 1M free WaveNet/Journey/Studio characters per month — daily episodes stay well within this
+- Studio voices may require `v1beta1` endpoint
+- 5000 byte limit per request - implement chunking for longer scripts (current threshold: 4500 bytes)
+- Two-voice setup: Studio-O (HOST) and Studio-Q (COHOST) for natural conversation feel
+- `effectsProfileId: ['large-home-entertainment-class-device']` improves audio quality
 
 ### 10. Anthropic Claude
 - Sonnet 4.6 produces best quality scripts
@@ -835,11 +797,12 @@ GitHub doesn't allow repository variables starting with "GITHUB_".
 
 - **Auto-prune old episodes**: Delete files >90 days old from gh-pages to stay under 1GB limit
 - **Transcript files**: Save script as `.txt` alongside MP3 for accessibility
-- **Two-host conversation**: Use separate synthesis for 2 voices, stitch audio together
+- ~~**Two-host conversation**~~: Implemented — Studio-O (HOST) + Studio-Q (COHOST) with `[HOST]`/`[COHOST]` script tags
 - **Friday wrap-up**: Detect Friday and summarize full week instead of single day
 - **Deduplication**: Track seen stories to avoid repeating same news
 - **Slack/email notifications**: POST to webhook after successful publish
 - **Multiple timezone support**: Generate different versions for different listeners
+- **Episode summary**: ~~Generate episode summaries~~ Implemented — Haiku 4.5 generates listener-facing summaries for RSS descriptions
 - **Voice cloning**: Use ElevenLabs voice cloning for truly personal podcast
 
 ---

@@ -1,6 +1,6 @@
 # The Data & AI Daily — Personal Podcast Automation
 
-Automated daily audio briefing covering Databricks releases and top AI/ML news, synthesized with Claude Sonnet 4.6 and delivered as a podcast RSS feed via GitHub Pages.
+Automated daily two-host audio briefing covering Databricks releases and top AI/ML news, synthesized with Claude Sonnet 4.6 and delivered as a podcast RSS feed via GitHub Pages.
 
 Wake up to a personalized 8-12 minute episode in your podcast app every weekday morning.
 
@@ -8,10 +8,10 @@ Wake up to a personalized 8-12 minute episode in your podcast app every weekday 
 
 ## 🎯 Features
 
-- **Automated Daily Pipeline**: Runs Monday-Friday at 6:00 AM UTC via GitHub Actions
+- **Automated Daily Pipeline**: Runs Monday-Friday at 11:30 AM UTC (5:30 AM Central) via GitHub Actions
 - **13+ Content Sources**: Databricks (blog, newsroom, release notes), AI labs (OpenAI, Anthropic, DeepMind, Meta), tech media (The Verge, TechCrunch, VentureBeat), Hacker News, arXiv
-- **AI-Powered Script**: Claude Sonnet 4.6 generates personalized, conversational 8-12 minute scripts with Austin weather integration
-- **High-Quality Audio**: Google Cloud Text-to-Speech with Journey-D voice at 1.1x speed, with automatic chunking for long scripts
+- **Two-Host AI Script**: Claude Sonnet 4.6 generates a two-host conversational script (HOST + COHOST) with Austin weather integration, plus a Haiku-generated episode summary
+- **High-Quality Audio**: Google Cloud Text-to-Speech with Studio-O (HOST) and Studio-Q (COHOST) voices, with automatic per-speaker chunking for long scripts
 - **Podcast RSS Feed**: Published to GitHub Pages with iTunes tags, artwork, and owner email for Spotify submission
 - **Zero Infrastructure**: Completely free hosting via GitHub Pages + Actions
 
@@ -44,7 +44,7 @@ GOOGLE_APPLICATION_CREDENTIALS=./service-account.json
 TWITTER_BEARER_TOKEN=your-twitter-token  # Optional
 GITHUB_TOKEN=ghp_your-personal-token-here  # For local testing
 GITHUB_REPOSITORY=yourusername/yourrepo
-GITHUB_PAGES_BASE_URL=https://yourusername.github.io/yourrepo
+PAGES_BASE_URL=https://yourusername.github.io/yourrepo
 PODCAST_TITLE="Your Podcast Title"
 PODCAST_AUTHOR=YourName
 ```
@@ -110,13 +110,13 @@ Add these secrets:
 
 Go to: Settings → Secrets and variables → Actions → Variables tab
 
-1. `GITHUB_PAGES_BASE_URL` - `https://yourusername.github.io/yourrepo`
+1. `PAGES_BASE_URL` - `https://yourusername.github.io/yourrepo`
 2. `PODCAST_TITLE` - Your podcast title
 
 ### Schedule
 
 The workflow runs automatically:
-- **Time**: 6:00 AM UTC (1:00 AM Central)
+- **Time**: 11:30 AM UTC (5:30 AM CST / 6:30 AM CDT)
 - **Days**: Monday - Friday
 - **Manual**: Can also trigger via "Actions" tab → "Run workflow"
 
@@ -145,12 +145,16 @@ daily-podcast/
 ├── .github/workflows/
 │   └── daily-briefing.yml    # GitHub Actions workflow
 ├── src/
-│   ├── index.js               # Main orchestrator
+│   ├── index.js               # Main orchestrator with retry logic
 │   ├── fetcher.js             # 13+ content sources with web scraping
-│   ├── synthesizer.js         # Claude API + Austin weather integration
-│   ├── tts.js                 # Google TTS with chunking for long scripts
+│   ├── synthesizer.js         # Claude API two-host script generation + weather
+│   ├── tts.js                 # Google TTS with two-voice per-speaker chunking
 │   ├── publisher.js           # RSS 2.0 + iTunes feed builder
-│   └── githubCommitter.js     # GitHub API commits to gh-pages
+│   ├── githubCommitter.js     # GitHub API commits to gh-pages
+│   ├── costTracker.js         # Per-run cost tracking (Claude, TTS, Twitter)
+│   ├── ttsUsageTracker.js     # Monthly TTS usage persistence to gh-pages
+│   ├── weather.js             # Austin weather via wttr.in (standalone)
+│   └── uploader.js            # File upload utilities
 ├── artwork.jpg                # Podcast cover art (1400x1400 to 3000x3000 px)
 ├── .env                       # Local config (gitignored)
 ├── service-account.json       # GCP credentials (gitignored)
@@ -171,14 +175,15 @@ daily-podcast/
 
 2. **Synthesize**:
    - Send ~34 items + weather to Claude Sonnet 4.6
-   - Claude writes 1,200-1,800 word script (8-12 minutes)
+   - Claude writes a two-host (HOST + COHOST) 1,200-1,800 word script (8-12 minutes)
    - Personalized cold open with Austin weather
-   - 3-6 themed segments with opinionated commentary
-   - Natural, conversational tone
+   - 3-6 themed segments with opinionated commentary and natural banter
+   - Second Claude call (Haiku 4.5) generates a listener-facing episode summary
 
 3. **Convert to Audio**:
-   - Google Cloud TTS (Journey-D voice, 1.1x speed)
-   - Automatic chunking for scripts >5,000 bytes
+   - Google Cloud TTS with two voices: Studio-O (HOST) and Studio-Q (COHOST)
+   - Script parsed by `[HOST]`/`[COHOST]` tags, each segment synthesized with the correct voice
+   - Automatic chunking for segments >4,500 bytes
    - Sentence-based splitting to preserve natural pauses
    - Binary MP3 concatenation
 
@@ -196,8 +201,8 @@ daily-podcast/
 
 | Service | Usage | Cost/day |
 |---------|-------|----------|
-| Claude API (Sonnet 4.6) | ~8,000 input + 2,500 output tokens | ~$0.04 |
-| Google TTS (Journey-D) | ~10,000 characters (8-12 min) | ~$0.04 |
+| Claude API (Sonnet 4.6 + Haiku 4.5) | ~8,000 input + 2,500 output tokens (script) + summary call | ~$0.05 |
+| Google TTS (Studio-O + Studio-Q) | ~10,000 characters (8-12 min) | ~$0.04 |
 | Open-Meteo Weather API | Daily forecast call | Free |
 | Twitter API v2 | User timeline calls (if used) | Free |
 | GitHub Actions | ~4 min runtime | Free |
@@ -206,29 +211,18 @@ daily-podcast/
 
 ## 🎨 Customization
 
-### Change Voice
+### Change Voices
 
-Edit `src/tts.js`:
-
-```javascript
-voice: {
-  languageCode: 'en-US',
-  name: 'en-US-Journey-F',  // Female voice
-  // or 'en-US-Journey-D' for male (current)
-}
-```
-
-### Adjust Speaking Rate
-
-Edit `src/tts.js`:
+Edit `src/tts.js` — the `VOICE_CONFIGS` object controls which voice each host uses:
 
 ```javascript
-audioConfig: {
-  audioEncoding: 'MP3',
-  speakingRate: 1.1,  // 1.0 = normal, 1.2 = faster
-  pitch: 0,
-}
+const VOICE_CONFIGS = {
+  HOST: { languageCode: 'en-US', name: 'en-US-Studio-O' },
+  COHOST: { languageCode: 'en-US', name: 'en-US-Studio-Q' },
+};
 ```
+
+Other options: `en-US-Journey-D`, `en-US-Journey-F`, `en-US-Neural2-A`, etc.
 
 ### Change Location/Weather
 
@@ -251,7 +245,7 @@ Edit `.github/workflows/daily-briefing.yml`:
 
 ```yaml
 schedule:
-  - cron: '0 6 * * 1-5'  # 6 AM UTC = 1 AM Central
+  - cron: '30 11 * * 1-5'  # 11:30 AM UTC = 5:30 AM CST / 6:30 AM CDT
 ```
 
 ### Modify Content Sources
@@ -276,9 +270,9 @@ Edit `src/synthesizer.js` — change the Claude prompt to:
 - Add credits at https://console.anthropic.com/settings/billing
 
 ### "Voice not found" error
-- Journey voices require Google Cloud TTS API v1
-- Verify `en-US-Journey-D` is available in your GCP region
-- Alternative: Use `en-US-Neural2-A` for standard quality
+- Studio voices require Google Cloud TTS API v1
+- Verify `en-US-Studio-O` and `en-US-Studio-Q` are available in your GCP region
+- Alternative: Use `en-US-Journey-D`/`en-US-Journey-F` or `en-US-Neural2-A` for standard quality
 
 ### "input.text is longer than the limit of 5000 bytes"
 - The chunking system should handle this automatically
@@ -340,7 +334,7 @@ convertToAudio(longScript, '/tmp/test.mp3').then(() => console.log('Done'));
 - [ ] Friday "week in review" mode (detect day and adjust prompt)
 - [ ] Deduplication log (`seen-items.json` in gh-pages to avoid repeating news)
 - [ ] Slack/email notification when episode publishes
-- [ ] Multiple voices for two-host conversational format
+- [x] ~~Multiple voices for two-host conversational format~~ (implemented: Studio-O + Studio-Q)
 - [ ] Analytics (episode downloads, listener stats)
 
 ## 📖 Blog Post
