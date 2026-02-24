@@ -150,7 +150,12 @@ daily-podcast/
 │   ├── synthesizer.js         # Claude API two-host script generation + weather
 │   ├── tts.js                 # Google TTS with two-voice per-speaker chunking
 │   ├── publisher.js           # RSS 2.0 + iTunes feed builder
-│   └── githubCommitter.js     # GitHub API commits to gh-pages
+│   ├── githubCommitter.js     # GitHub API commits to gh-pages
+│   ├── costTracker.js         # Per-run cost tracking (Claude, TTS, Twitter)
+│   ├── ttsUsageTracker.js     # Monthly TTS usage persistence to gh-pages
+│   ├── weather.js             # Austin weather via wttr.in (standalone)
+│   ├── uploader.js            # Google Drive upload (optional)
+│   └── episodeMemory.js       # Episode deduplication memory
 ├── .env                       # Local config (gitignored)
 ├── service-account.json       # GCP credentials (gitignored)
 ├── package.json
