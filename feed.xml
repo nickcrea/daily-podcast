@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Data &amp; AI Daily</title>
+    <link>https://nickcrea.github.io/daily-podcast</link>
+    <description>Daily briefing on Databricks releases and AI developments.</description>
+    <language>en-us</language>
+    <itunes:image href="https://nickcrea.github.io/daily-podcast/artwork.jpg"/>
+    <itunes:author>Nick Rea</itunes:author>
+    <itunes:email>nickcrea@users.noreply.github.com</itunes:email>
+    <itunes:owner>
+      <itunes:name>Nick Rea</itunes:name>
+      <itunes:email>nickcrea@users.noreply.github.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    
+    <item>
+      <title>The Data &amp; AI Daily — 2026-02-25</title>
+      <description># Episode Summary
+
+This episode covers three major developments shaping the AI landscape: **Databricks&apos; aggressive push into real-time data infrastructure** with the general availability of Zerobus Ingest and a new declarative pipeline framework that could fundamentally reshape how data engineers build systems, **an intensifying standoff between Anthropic and the Pentagon** over AI safety guardrails with a Friday deadline looming, and **MatX&apos;s massive $500M funding round** from former Google TPU engineers positioning themselves as a serious challenger to Nvidia&apos;s AI chip dominance. The episode also touches on new model releases from Google and Anthropic, plus emerging concerns about the tension between safety commitments and government partnerships in the</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-25.mp3" length="4148352" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-25.mp3</guid>
+      <itunes:duration>259</itunes:duration>
+    </item>
+  </channel>
+</rss>
