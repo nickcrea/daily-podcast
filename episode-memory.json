@@ -2,7 +2,7 @@
   "episodes": [
     {
       "date": "2026-02-25",
-      "summary": "# Episode Summary\n\nThis episode covers three major tech stories: Anthropic's high-stakes standoff with the Pentagon over AI safety guardrails, with a Friday deadline looming that could reshape how defense contractors approach AI policy; Databricks' push toward real-time data ingestion and fully declarative pipelines as the future of data engineering; and MatX's ambitious $500 million funding round to challenge Nvidia's dominance in AI chips with hardware built by former Google TPU engineers. The broader theme is how safety commitments, infrastructure choices, and competitive dynamics are reshaping AI's operational foundation.",
+      "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping AI and data infrastructure: Anthropic's upgraded Responsible Scaling Policy (version 3) introduces stricter safety thresholds and distillation attack detection, signaling serious commitment to AI governance amid industry skepticism. Databricks launches Zerobus Ingest for real-time data pipelines and pushes toward fully declarative data engineering, addressing the operational complexity that's kept many organizations stuck between pilots and production. The broader theme emerging across both stories is that AI and data infrastructure are finally moving beyond experimental projects into genuine operational capability—but only for organizations that can combine robust safety practices with reliable, governed data systems.",
       "keyTopics": []
     }
   ]
