@@ -1,0 +1,9 @@
+{
+  "episodes": [
+    {
+      "date": "2026-02-25",
+      "summary": "# Episode Summary\n\nThis episode covers three major developments shaping the AI landscape: **Databricks' aggressive push into real-time data infrastructure** with the general availability of Zerobus Ingest and a new declarative pipeline framework that could fundamentally reshape how data engineers build systems, **an intensifying standoff between Anthropic and the Pentagon** over AI safety guardrails with a Friday deadline looming, and **MatX's massive $500M funding round** from former Google TPU engineers positioning themselves as a serious challenger to Nvidia's AI chip dominance. The episode also touches on new model releases from Google and Anthropic, plus emerging concerns about the tension between safety commitments and government partnerships in the",
+      "keyTopics": []
+    }
+  ]
+}
