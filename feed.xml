@@ -16,6 +16,16 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>The Data &amp; AI Daily — 2026-02-25</title>
+      <description># Episode Summary
+
+This episode covers three major tech stories: Anthropic&apos;s high-stakes standoff with the Pentagon over AI safety guardrails, with a Friday deadline looming that could reshape how defense contractors approach AI policy; Databricks&apos; push toward real-time data ingestion and fully declarative pipelines as the future of data engineering; and MatX&apos;s ambitious $500 million funding round to challenge Nvidia&apos;s dominance in AI chips with hardware built by former Google TPU engineers. The broader theme is how safety commitments, infrastructure choices, and competitive dynamics are reshaping AI&apos;s operational foundation.</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-25.mp3" length="3830784" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-25.mp3</guid>
+      <itunes:duration>239</itunes:duration>
+    </item>
     
     <item>
       <title>The Data &amp; AI Daily — 2026-02-25</title>
