@@ -20,6 +20,16 @@
       <title>The Data &amp; AI Daily — 2026-02-25</title>
       <description># Episode Summary
 
+This episode covers three major developments reshaping AI and data infrastructure: Anthropic&apos;s upgraded Responsible Scaling Policy (version 3) introduces stricter safety thresholds and distillation attack detection, signaling serious commitment to AI governance amid industry skepticism. Databricks launches Zerobus Ingest for real-time data pipelines and pushes toward fully declarative data engineering, addressing the operational complexity that&apos;s kept many organizations stuck between pilots and production. The broader theme emerging across both stories is that AI and data infrastructure are finally moving beyond experimental projects into genuine operational capability—but only for organizations that can combine robust safety practices with reliable, governed data systems.</description>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-25.mp3" length="4198464" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-25.mp3</guid>
+      <itunes:duration>262</itunes:duration>
+    </item>
+    <item>
+      <title>The Data &amp; AI Daily — 2026-02-25</title>
+      <description># Episode Summary
+
 This episode covers three major tech stories: Anthropic&apos;s high-stakes standoff with the Pentagon over AI safety guardrails, with a Friday deadline looming that could reshape how defense contractors approach AI policy; Databricks&apos; push toward real-time data ingestion and fully declarative pipelines as the future of data engineering; and MatX&apos;s ambitious $500 million funding round to challenge Nvidia&apos;s dominance in AI chips with hardware built by former Google TPU engineers. The broader theme is how safety commitments, infrastructure choices, and competitive dynamics are reshaping AI&apos;s operational foundation.</description>
       <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
       <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-25.mp3" length="3830784" type="audio/mpeg"/>
