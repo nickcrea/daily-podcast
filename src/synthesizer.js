@@ -8,14 +8,14 @@ const Anthropic = require('@anthropic-ai/sdk');
 const axios = require('axios');
 
 /**
- * Fetch current Austin, TX weather from Open-Meteo API (free, no key needed)
+ * Fetch weather from Open-Meteo API (free, no key needed)
  */
-async function fetchAustinWeather() {
+async function fetchCityWeather(lat, lon, timezone) {
   const url = 'https://api.open-meteo.com/v1/forecast'
-    + '?latitude=30.2672&longitude=-97.7431'
+    + `?latitude=${lat}&longitude=${lon}`
     + '&current=temperature_2m,weathercode,windspeed_10m'
     + '&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max'
-    + '&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FChicago&forecast_days=1';
+    + `&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=${encodeURIComponent(timezone)}&forecast_days=1`;
 
   const { data } = await axios.get(url);
   const c = data.current;
@@ -40,6 +40,14 @@ async function fetchAustinWeather() {
   };
 }
 
+async function fetchSeattleWeather() {
+  return fetchCityWeather(47.6062, -122.3321, 'America/Los_Angeles');
+}
+
+async function fetchAustinWeather() {
+  return fetchCityWeather(30.2672, -97.7431, 'America/Chicago');
+}
+
 /**
  * Synthesize audio script from content bundle
  */
@@ -57,11 +65,17 @@ async function synthesizeScript(contentBundle, episodeMemory = null) {
     timeZone: 'America/Chicago',
   });
 
-  // Fetch Austin weather
-  const weather = await fetchAustinWeather();
-  const weatherSummary = `${weather.description}, currently ${weather.current}°F, `
-    + `high of ${weather.high}°F, low of ${weather.low}°F, `
-    + `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
+  // Fetch weather for both cities
+  const [seattleWeather, austinWeather] = await Promise.all([
+    fetchSeattleWeather(),
+    fetchAustinWeather(),
+  ]);
+  const weatherSummary = `Seattle: ${seattleWeather.description}, currently ${seattleWeather.current}°F, `
+    + `high of ${seattleWeather.high}°F, low of ${seattleWeather.low}°F, `
+    + `${seattleWeather.precip}% chance of rain, winds at ${seattleWeather.wind} mph. `
+    + `Austin: ${austinWeather.description}, currently ${austinWeather.current}°F, `
+    + `high of ${austinWeather.high}°F, low of ${austinWeather.low}°F, `
+    + `${austinWeather.precip}% chance of rain, winds at ${austinWeather.wind} mph`;
 
   const memoryContext = episodeMemory
     ? `═══════════════════════════════════════════════
@@ -76,9 +90,9 @@ ${episodeMemory}
 
   const prompt = `
 You are writing the script for "The Data & AI Daily," a two-host personal morning podcast for Tyler.
-Today is ${today}. Tyler is based in Austin, Texas.
+Today is ${today}. Tyler splits time between Seattle and Austin.
 
-Austin weather right now: ${weatherSummary}
+Weather right now — ${weatherSummary}
 
 ${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
@@ -114,7 +128,7 @@ STRUCTURE (follow this exactly):
 [COLD OPEN — 15–30 seconds]
 - HOST greets Tyler by name.
 - One sentence on what today's episode covers (the "headline of headlines").
-- COHOST reacts and weaves in the Austin weather naturally (not as a weather report — more like what a friend would say: "it's looking like a scorcher out there" or "grab a jacket this morning").
+- COHOST reacts and weaves in the Seattle vs Austin weather comparison naturally (not as a formal weather report — more like what a friend would say: "Seattle's looking gray as usual while Austin's already heating up" or "both cities actually agree on the weather today for once").
 
 [THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
 Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
@@ -205,4 +219,4 @@ Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other label
   }
 }
 
-module.exports = { synthesizeScript, fetchAustinWeather };
+module.exports = { synthesizeScript, fetchSeattleWeather, fetchAustinWeather };

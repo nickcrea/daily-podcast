@@ -1,20 +1,20 @@
 /**
  * Weather Fetcher
  *
- * Fetches current weather and forecast for Austin, TX
+ * Fetches current weather and forecast for Seattle, WA and Austin, TX
  */
 
 const axios = require('axios');
 
 /**
- * Get weather for Austin, TX
+ * Get weather for a given city
  */
-async function getAustinWeather() {
-  console.log('Fetching Austin weather...');
+async function getCityWeather(city, state) {
+  console.log(`Fetching ${city} weather...`);
 
   try {
     // Using wttr.in - free weather API, no key needed
-    const response = await axios.get('https://wttr.in/Austin,TX?format=j1', {
+    const response = await axios.get(`https://wttr.in/${city},${state}?format=j1`, {
       timeout: 5000,
       headers: {
         'User-Agent': 'Mozilla/5.0'
@@ -26,6 +26,7 @@ async function getAustinWeather() {
     const today = data.weather[0];
 
     const weather = {
+      city,
       temperature: current.temp_F,
       feelsLike: current.FeelsLikeF,
       condition: current.weatherDesc[0].value,
@@ -41,10 +42,11 @@ async function getAustinWeather() {
     return weather;
 
   } catch (error) {
-    console.error('  ⚠️  Weather fetch failed:', error.message);
+    console.error(`  ⚠️  ${city} weather fetch failed:`, error.message);
 
     // Return fallback data
     return {
+      city,
       temperature: 'unknown',
       condition: 'unavailable',
       high: 'unknown',
@@ -55,28 +57,43 @@ async function getAustinWeather() {
   }
 }
 
+async function getSeattleWeather() {
+  return getCityWeather('Seattle', 'WA');
+}
+
+async function getAustinWeather() {
+  return getCityWeather('Austin', 'TX');
+}
+
 /**
- * Format weather for natural speech
+ * Format weather comparison for natural speech
  */
-function formatWeatherForSpeech(weather) {
-  if (weather.error) {
+function formatWeatherForSpeech(seattle, austin) {
+  if (seattle.error && austin.error) {
     return "Weather data unavailable today";
   }
 
-  let speech = `It's currently ${weather.temperature} degrees`;
+  let speech = '';
 
-  if (weather.condition.toLowerCase() !== 'unknown') {
-    speech += ` and ${weather.condition.toLowerCase()}`;
+  if (!seattle.error) {
+    speech += `In Seattle, it's currently ${seattle.temperature} degrees and ${seattle.condition.toLowerCase()}`;
+    speech += `, with a high of ${seattle.high} and a low of ${seattle.low}`;
+    const seattleRain = parseInt(seattle.chanceOfRain);
+    if (seattleRain > 30) {
+      speech += `, and there's a ${seattleRain} percent chance of rain`;
+    }
   }
 
-  speech += ` in Austin. Today's high will be ${weather.high} with a low of ${weather.low}`;
-
-  const rainChance = parseInt(weather.chanceOfRain);
-  if (rainChance > 30) {
-    speech += `, and there's a ${rainChance} percent chance of rain`;
+  if (!austin.error) {
+    speech += `. Meanwhile in Austin, it's ${austin.temperature} degrees and ${austin.condition.toLowerCase()}`;
+    speech += `, with a high of ${austin.high} and a low of ${austin.low}`;
+    const austinRain = parseInt(austin.chanceOfRain);
+    if (austinRain > 30) {
+      speech += `, and a ${austinRain} percent chance of rain`;
+    }
   }
 
   return speech;
 }
 
-module.exports = { getAustinWeather, formatWeatherForSpeech };
+module.exports = { getSeattleWeather, getAustinWeather, formatWeatherForSpeech };
