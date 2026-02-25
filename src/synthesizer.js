@@ -89,8 +89,8 @@ ${episodeMemory}
     : '';
 
   const prompt = `
-You are writing the script for "The Data & AI Daily," a two-host personal morning podcast for Tyler.
-Today is ${today}. Tyler splits time between Seattle and Austin.
+You are writing the script for "The Data & AI Daily," a two-host personal morning podcast for Nick.
+Today is ${today}. Nick splits time between Seattle and Austin.
 
 Weather right now — ${weatherSummary}
 
@@ -113,7 +113,7 @@ FORMAT RULES (critical):
 - Example:
 
 [HOST]
-Good morning, Tyler! Big day in the data world.
+Good morning, Nick! Big day in the data world.
 
 [COHOST]
 No kidding. I saw the Databricks news drop last night and almost spilled my coffee.
@@ -126,7 +126,7 @@ STRUCTURE (follow this exactly):
 ═══════════════════════════════════════════════
 
 [COLD OPEN — 15–30 seconds]
-- HOST greets Tyler by name.
+- HOST greets Nick by name.
 - One sentence on what today's episode covers (the "headline of headlines").
 - COHOST reacts and weaves in the Seattle vs Austin weather comparison naturally (not as a formal weather report — more like what a friend would say: "Seattle's looking gray as usual while Austin's already heating up" or "both cities actually agree on the weather today for once").
 
@@ -147,12 +147,12 @@ For each theme segment:
   "Honestly, this is great news for early-stage teams with lean data stacks."
   "I think this is being undersold — here's why it matters."
 - Use first-person ("I think", "what I find interesting here is", "we've been watching this").
-- Address Tyler by name once or twice across the whole episode — not every segment.
+- Address Nick by name once or twice across the whole episode — not every segment.
 - Transitions between segments should feel natural, not formulaic.
 
 [WRAP-UP — 15–30 seconds]
 - HOST gives a quick recap of the 1–2 biggest themes.
-- COHOST adds what Tyler should keep an eye on over the coming days.
+- COHOST adds what Nick should keep an eye on over the coming days.
 - Both sign off warmly and personally.
 
 ═══════════════════════════════════════════════
