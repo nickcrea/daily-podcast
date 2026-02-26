@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-02-26</title>
+      <description># Episode Summary
+
+This episode covers three major developments in enterprise AI: Anthropic&apos;s acquisition of Vercept to integrate computer-use agents into Claude, paired with the release of their Responsible Scaling Policy v3 to govern these increasingly capable systems safely; Nvidia&apos;s record quarterly results reflecting sustained hyperscaler demand for AI infrastructure; and Databricks&apos; push toward AI-native data engineering through new tools like Agent Bricks and Lakeflow, plus adaptive governance solutions for EU regulatory compliance. The broader narrative threads together how agentic AI is moving from concept to production, the infrastructure powering it, and the data engineering layer that makes it operationally viable.</description>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-26.mp3" length="3973248" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-26.mp3</guid>
+      <itunes:duration>248</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-02-25</title>
       <description># Episode Summary
 
