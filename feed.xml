@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-02-27</title>
+      <description># Episode Summary
+
+This week explores three major developments in enterprise AI and data infrastructure: Anthropic CEO Dario Amodei&apos;s principled refusal to grant the Pentagon unrestricted access to Claude, marking a critical test of AI safety commitments against institutional pressure; Databricks&apos; expansion of its data marketplace with institutional finance data (Nasdaq&apos;s eVestment), positioning itself as an all-in-one platform for data enrichment and governance; and the broader shift toward AI-native data engineering through Databricks&apos; declarative pipeline approach and emerging tools like Railway that promise to simplify cloud infrastructure for modern development teams. The episode also touches on strategic partnerships reshaping the AI landscape, including Mistral&apos;s</description>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-27.mp3" length="3900480" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-02-27.mp3</guid>
+      <itunes:duration>244</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-02-26</title>
       <description># Episode Summary
 
