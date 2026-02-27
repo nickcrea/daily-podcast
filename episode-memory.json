@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-02-27",
+      "summary": "# Episode Summary\n\nThis week explores three major developments in enterprise AI and data infrastructure: Anthropic CEO Dario Amodei's principled refusal to grant the Pentagon unrestricted access to Claude, marking a critical test of AI safety commitments against institutional pressure; Databricks' expansion of its data marketplace with institutional finance data (Nasdaq's eVestment), positioning itself as an all-in-one platform for data enrichment and governance; and the broader shift toward AI-native data engineering through Databricks' declarative pipeline approach and emerging tools like Railway that promise to simplify cloud infrastructure for modern development teams. The episode also touches on strategic partnerships reshaping the AI landscape, including Mistral's",
+      "keyTopics": []
+    },
+    {
       "date": "2026-02-26",
       "summary": "# Episode Summary\n\nThis episode covers three major developments in enterprise AI: Anthropic's acquisition of Vercept to integrate computer-use agents into Claude, paired with the release of their Responsible Scaling Policy v3 to govern these increasingly capable systems safely; Nvidia's record quarterly results reflecting sustained hyperscaler demand for AI infrastructure; and Databricks' push toward AI-native data engineering through new tools like Agent Bricks and Lakeflow, plus adaptive governance solutions for EU regulatory compliance. The broader narrative threads together how agentic AI is moving from concept to production, the infrastructure powering it, and the data engineering layer that makes it operationally viable.",
       "keyTopics": []
