@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-02",
+      "summary": "# Episode Summary\n\nThis episode covers two major AI industry developments: **Anthropic's standoff with the Pentagon over unrestricted Claude access**, where the company refused the government contract on safety grounds and saw Claude surge to #1 in the App Store, contrasting sharply with OpenAI's acknowledged \"rushed\" defense deal. The discussion also explores **Databricks' strategic platform consolidation**, including new integrations with institutional finance data, TabPFN for tabular machine learning, and expansion into telecom—positioning the company to compress the workflow from raw data to deployed models while potentially displacing smaller, specialized tools.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-02-27",
       "summary": "# Episode Summary\n\nThis week explores three major developments in enterprise AI and data infrastructure: Anthropic CEO Dario Amodei's principled refusal to grant the Pentagon unrestricted access to Claude, marking a critical test of AI safety commitments against institutional pressure; Databricks' expansion of its data marketplace with institutional finance data (Nasdaq's eVestment), positioning itself as an all-in-one platform for data enrichment and governance; and the broader shift toward AI-native data engineering through Databricks' declarative pipeline approach and emerging tools like Railway that promise to simplify cloud infrastructure for modern development teams. The episode also touches on strategic partnerships reshaping the AI landscape, including Mistral's",
       "keyTopics": []
