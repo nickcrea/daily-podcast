@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-03",
+      "summary": "# Episode Summary\n\nThis episode explores a pivotal moment in AI governance as OpenAI and Anthropic take opposing stances on government access to their models, with ChatGPT uninstalls surging 295% after OpenAI's Pentagon deal and Anthropic emerging as the consumer preference for AI safety. Meanwhile, Databricks is consolidating its data platform with new real-time streaming capabilities and expanding into financial services through partnerships and agentic analytics deployments. The show closes with Cursor's remarkable $2 billion annualized revenue milestone, signaling a thriving and competitive market for AI-powered developer tools.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-02",
       "summary": "# Episode Summary\n\nThis episode covers two major AI industry developments: **Anthropic's standoff with the Pentagon over unrestricted Claude access**, where the company refused the government contract on safety grounds and saw Claude surge to #1 in the App Store, contrasting sharply with OpenAI's acknowledged \"rushed\" defense deal. The discussion also explores **Databricks' strategic platform consolidation**, including new integrations with institutional finance data, TabPFN for tabular machine learning, and expansion into telecom—positioning the company to compress the workflow from raw data to deployed models while potentially displacing smaller, specialized tools.",
       "keyTopics": []
