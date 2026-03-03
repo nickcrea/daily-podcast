@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-03</title>
+      <description># Episode Summary
+
+This episode explores a pivotal moment in AI governance as OpenAI and Anthropic take opposing stances on government access to their models, with ChatGPT uninstalls surging 295% after OpenAI&apos;s Pentagon deal and Anthropic emerging as the consumer preference for AI safety. Meanwhile, Databricks is consolidating its data platform with new real-time streaming capabilities and expanding into financial services through partnerships and agentic analytics deployments. The show closes with Cursor&apos;s remarkable $2 billion annualized revenue milestone, signaling a thriving and competitive market for AI-powered developer tools.</description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-03.mp3" length="3671232" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-03.mp3</guid>
+      <itunes:duration>229</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-02</title>
       <description># Episode Summary
 
