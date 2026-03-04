@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-04",
+      "summary": "# Episode Summary\n\nDatabricks launches Lakebase to general availability on Azure, collapsing the traditional divide between application and data workloads into a single platform—a strategic move that directly challenges competitors like Snowflake and signals the maturation of enterprise AI infrastructure. Meanwhile, the AI coding space heats up with Anthropic adding voice mode to Claude Code while open source alternatives like Goose close the capability gap at a fraction of the cost, putting real price pressure on premium tools that charge up to $200/month.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-03",
       "summary": "# Episode Summary\n\nThis episode explores a pivotal moment in AI governance as OpenAI and Anthropic take opposing stances on government access to their models, with ChatGPT uninstalls surging 295% after OpenAI's Pentagon deal and Anthropic emerging as the consumer preference for AI safety. Meanwhile, Databricks is consolidating its data platform with new real-time streaming capabilities and expanding into financial services through partnerships and agentic analytics deployments. The show closes with Cursor's remarkable $2 billion annualized revenue milestone, signaling a thriving and competitive market for AI-powered developer tools.",
       "keyTopics": []
