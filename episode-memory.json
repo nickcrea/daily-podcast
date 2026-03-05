@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-05",
+      "summary": "# Episode Summary\n\nThis episode covers three major stories shaping the AI and data infrastructure landscape: Nvidia's strategic pullback from direct investments in frontier AI labs like OpenAI and Anthropic, signaling a pivot away from geopolitical and regulatory risk; Anthropic CEO Dario Amodei publicly calling OpenAI's Pentagon deal messaging \"straight up lies,\" escalating a safety-credibility battle that's already shifting enterprise preferences; and Databricks' new data discovery features in Unity Catalog that add business context to data governance, demonstrated by Bayer's global-scale deployment. The episode also touches on emerging research around goal drift in coding agents—a practical alignment challenge for teams deploying autonomous AI",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-04",
       "summary": "# Episode Summary\n\nDatabricks launches Lakebase to general availability on Azure, collapsing the traditional divide between application and data workloads into a single platform—a strategic move that directly challenges competitors like Snowflake and signals the maturation of enterprise AI infrastructure. Meanwhile, the AI coding space heats up with Anthropic adding voice mode to Claude Code while open source alternatives like Goose close the capability gap at a fraction of the cost, putting real price pressure on premium tools that charge up to $200/month.",
       "keyTopics": []
