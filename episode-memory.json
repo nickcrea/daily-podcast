@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-06",
+      "summary": "# Episode Summary\n\nThis episode covers three major tech stories: Anthropic's legal challenge against the Pentagon's designation of the company as a supply-chain risk—a major escalation in a week-long dispute over government AI access—and Anthropic's new partnership with Mozilla to strengthen its security credentials. Databricks released KARL, an enterprise knowledge agent powered by reinforcement learning for faster document retrieval, plus tooling improvements to streamline migrations from legacy data warehouses. Finally, a new SkillNet research paper proposes a framework for AI agents to systematically build and transfer capabilities over time rather than starting from scratch on each task.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-05",
       "summary": "# Episode Summary\n\nThis episode covers three major stories shaping the AI and data infrastructure landscape: Nvidia's strategic pullback from direct investments in frontier AI labs like OpenAI and Anthropic, signaling a pivot away from geopolitical and regulatory risk; Anthropic CEO Dario Amodei publicly calling OpenAI's Pentagon deal messaging \"straight up lies,\" escalating a safety-credibility battle that's already shifting enterprise preferences; and Databricks' new data discovery features in Unity Catalog that add business context to data governance, demonstrated by Bayer's global-scale deployment. The episode also touches on emerging research around goal drift in coding agents—a practical alignment challenge for teams deploying autonomous AI",
       "keyTopics": []
