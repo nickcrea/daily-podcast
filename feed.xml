@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-06</title>
+      <description># Episode Summary
+
+This episode covers three major tech stories: Anthropic&apos;s legal challenge against the Pentagon&apos;s designation of the company as a supply-chain risk—a major escalation in a week-long dispute over government AI access—and Anthropic&apos;s new partnership with Mozilla to strengthen its security credentials. Databricks released KARL, an enterprise knowledge agent powered by reinforcement learning for faster document retrieval, plus tooling improvements to streamline migrations from legacy data warehouses. Finally, a new SkillNet research paper proposes a framework for AI agents to systematically build and transfer capabilities over time rather than starting from scratch on each task.</description>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-06.mp3" length="4387584" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-06.mp3</guid>
+      <itunes:duration>274</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-05</title>
       <description># Episode Summary
 
