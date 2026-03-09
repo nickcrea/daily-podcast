@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-09</title>
+      <description># Episode Summary
+
+This episode covers three major AI stories: Anthropic&apos;s ongoing standoff with the Pentagon over safety guardrails and what it signals for other startups pursuing defense contracts, a new Databricks healthcare use case using AI agents to streamline patient referrals alongside their internal PII detection system, and a concerning research paper suggesting that reasoning models can&apos;t reliably control their chain-of-thought outputs—complicating current AI safety monitoring approaches. Together, these stories illustrate the growing tension between government demands for unrestricted AI access, enterprise adoption of agentic AI across industries, and fundamental questions about whether we can truly trust AI systems to show their work.</description>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-09.mp3" length="4063104" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-09.mp3</guid>
+      <itunes:duration>254</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-06</title>
       <description># Episode Summary
 
