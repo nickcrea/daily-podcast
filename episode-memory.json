@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-09",
+      "summary": "# Episode Summary\n\nThis episode covers three major AI stories: Anthropic's ongoing standoff with the Pentagon over safety guardrails and what it signals for other startups pursuing defense contracts, a new Databricks healthcare use case using AI agents to streamline patient referrals alongside their internal PII detection system, and a concerning research paper suggesting that reasoning models can't reliably control their chain-of-thought outputs—complicating current AI safety monitoring approaches. Together, these stories illustrate the growing tension between government demands for unrestricted AI access, enterprise adoption of agentic AI across industries, and fundamental questions about whether we can truly trust AI systems to show their work.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-06",
       "summary": "# Episode Summary\n\nThis episode covers three major tech stories: Anthropic's legal challenge against the Pentagon's designation of the company as a supply-chain risk—a major escalation in a week-long dispute over government AI access—and Anthropic's new partnership with Mozilla to strengthen its security credentials. Databricks released KARL, an enterprise knowledge agent powered by reinforcement learning for faster document retrieval, plus tooling improvements to streamline migrations from legacy data warehouses. Finally, a new SkillNet research paper proposes a framework for AI agents to systematically build and transfer capabilities over time rather than starting from scratch on each task.",
       "keyTopics": []
