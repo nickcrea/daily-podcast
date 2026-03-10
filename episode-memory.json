@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-10",
+      "summary": "# AI Research Takes a Radical Turn—Plus Major Moves in Code Review and Agent Infrastructure\n\nYann LeCun has left Meta to launch AMI Labs with over $1 billion in funding, betting on \"world models\" as a fundamentally different path to AI than the large language model scaling that dominates today's frontier labs. Meanwhile, Anthropic is doubling down on enterprise AI with new multi-agent code review capabilities and winning unexpected cross-company support—including from OpenAI employees—in its legal battle against the DOD over safety restrictions. On the infrastructure side, Databricks released Kasal, a framework for building agentic workflows at scale, alongside new vector search architecture designed for billion",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-09",
       "summary": "# Episode Summary\n\nThis episode covers three major AI stories: Anthropic's ongoing standoff with the Pentagon over safety guardrails and what it signals for other startups pursuing defense contracts, a new Databricks healthcare use case using AI agents to streamline patient referrals alongside their internal PII detection system, and a concerning research paper suggesting that reasoning models can't reliably control their chain-of-thought outputs—complicating current AI safety monitoring approaches. Together, these stories illustrate the growing tension between government demands for unrestricted AI access, enterprise adoption of agentic AI across industries, and fundamental questions about whether we can truly trust AI systems to show their work.",
       "keyTopics": []
