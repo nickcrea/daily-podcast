@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-10</title>
+      <description># AI Research Takes a Radical Turn—Plus Major Moves in Code Review and Agent Infrastructure
+
+Yann LeCun has left Meta to launch AMI Labs with over $1 billion in funding, betting on &quot;world models&quot; as a fundamentally different path to AI than the large language model scaling that dominates today&apos;s frontier labs. Meanwhile, Anthropic is doubling down on enterprise AI with new multi-agent code review capabilities and winning unexpected cross-company support—including from OpenAI employees—in its legal battle against the DOD over safety restrictions. On the infrastructure side, Databricks released Kasal, a framework for building agentic workflows at scale, alongside new vector search architecture designed for billion</description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-10.mp3" length="3944832" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-10.mp3</guid>
+      <itunes:duration>247</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-09</title>
       <description># Episode Summary
 
