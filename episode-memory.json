@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-11",
+      "summary": "# Episode Summary\n\nAnthropic launches a new independent Institute focused on AI safety research and policy—a strategic move to build credibility amid Pentagon contract disputes—while expanding internationally with a new Sydney office. Meanwhile, Google steps in to provide AI agents to the Pentagon, highlighting the real-world consequences of safety-focused restrictions and accelerating broader government AI procurement. The episode also explores the maturing agentic AI infrastructure layer, where new evaluation frameworks, identity protocols, and budget-constraint research are enabling trustworthy, scalable multi-agent deployments—plus Amazon's quiet entry into consumer healthcare AI.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-10",
       "summary": "# AI Research Takes a Radical Turn—Plus Major Moves in Code Review and Agent Infrastructure\n\nYann LeCun has left Meta to launch AMI Labs with over $1 billion in funding, betting on \"world models\" as a fundamentally different path to AI than the large language model scaling that dominates today's frontier labs. Meanwhile, Anthropic is doubling down on enterprise AI with new multi-agent code review capabilities and winning unexpected cross-company support—including from OpenAI employees—in its legal battle against the DOD over safety restrictions. On the infrastructure side, Databricks released Kasal, a framework for building agentic workflows at scale, alongside new vector search architecture designed for billion",
       "keyTopics": []
