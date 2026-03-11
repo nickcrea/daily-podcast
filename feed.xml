@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-11</title>
+      <description># Episode Summary
+
+Anthropic launches a new independent Institute focused on AI safety research and policy—a strategic move to build credibility amid Pentagon contract disputes—while expanding internationally with a new Sydney office. Meanwhile, Google steps in to provide AI agents to the Pentagon, highlighting the real-world consequences of safety-focused restrictions and accelerating broader government AI procurement. The episode also explores the maturing agentic AI infrastructure layer, where new evaluation frameworks, identity protocols, and budget-constraint research are enabling trustworthy, scalable multi-agent deployments—plus Amazon&apos;s quiet entry into consumer healthcare AI.</description>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-11.mp3" length="3861312" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-11.mp3</guid>
+      <itunes:duration>241</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-10</title>
       <description># AI Research Takes a Radical Turn—Plus Major Moves in Code Review and Agent Infrastructure
 
