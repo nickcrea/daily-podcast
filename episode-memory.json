@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-12",
+      "summary": "# The Data and AI Daily Episode Summary\n\nDatabricks made two strategic moves to strengthen its agentic AI platform: acquiring Quotient AI to address the critical challenge of evaluating multi-step agent behavior, and launching Genie Code to extend its natural language interface into code generation. Meanwhile, Google unveiled a clever approach to flood prediction in data-scarce regions by using LLMs to extract structured data from historical news reports, demonstrating how language models are increasingly valuable as data transformation tools rather than just answer engines.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-11",
       "summary": "# Episode Summary\n\nAnthropic launches a new independent Institute focused on AI safety research and policy—a strategic move to build credibility amid Pentagon contract disputes—while expanding internationally with a new Sydney office. Meanwhile, Google steps in to provide AI agents to the Pentagon, highlighting the real-world consequences of safety-focused restrictions and accelerating broader government AI procurement. The episode also explores the maturing agentic AI infrastructure layer, where new evaluation frameworks, identity protocols, and budget-constraint research are enabling trustworthy, scalable multi-agent deployments—plus Amazon's quiet entry into consumer healthcare AI.",
       "keyTopics": []
