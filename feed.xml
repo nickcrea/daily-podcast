@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-12</title>
+      <description># The Data and AI Daily Episode Summary
+
+Databricks made two strategic moves to strengthen its agentic AI platform: acquiring Quotient AI to address the critical challenge of evaluating multi-step agent behavior, and launching Genie Code to extend its natural language interface into code generation. Meanwhile, Google unveiled a clever approach to flood prediction in data-scarce regions by using LLMs to extract structured data from historical news reports, demonstrating how language models are increasingly valuable as data transformation tools rather than just answer engines.</description>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-12.mp3" length="4130880" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-12.mp3</guid>
+      <itunes:duration>258</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-11</title>
       <description># Episode Summary
 
