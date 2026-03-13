@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-13",
+      "summary": "# Podcast Summary\n\nThis episode covers three major developments reshaping the AI landscape: **Anthropic's $100 million Claude Partner Network investment**, a strategic move to build commercial ecosystem dominance while simultaneously launching their AI safety institute; **Nvidia's GTC keynote** (happening live during recording), where infrastructure announcements around inference-optimized hardware will likely set the tone for enterprise AI deployment strategies; and **Databricks' governance and serverless compute frameworks**, addressing the critical but often overlooked foundations needed for production AI systems—from security safeguards against prompt injection attacks to infrastructure that scales dynamically with agent workloads. The episode also highlights emerging research on model distillation efficiency and competitive dynamics between Claude and",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-12",
       "summary": "# The Data and AI Daily Episode Summary\n\nDatabricks made two strategic moves to strengthen its agentic AI platform: acquiring Quotient AI to address the critical challenge of evaluating multi-step agent behavior, and launching Genie Code to extend its natural language interface into code generation. Meanwhile, Google unveiled a clever approach to flood prediction in data-scarce regions by using LLMs to extract structured data from historical news reports, demonstrating how language models are increasingly valuable as data transformation tools rather than just answer engines.",
       "keyTopics": []
