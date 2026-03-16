@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-16</title>
+      <description># Episode Summary
+
+This episode covers three major developments reshaping the AI and data infrastructure landscape: Apache Spark 4.1&apos;s new Real-Time Mode delivers true continuous streaming processing—a breakthrough that could eliminate the need for hybrid Spark-Flink setups for latency-critical applications like fraud detection. The conversation then pivots to intensifying AI safety concerns, connecting recent legal cases involving AI chatbots in mass casualty incidents with Anthropic&apos;s safety positioning and the broader governance challenge as AI systems outpace regulatory frameworks. Finally, the hosts examine the collapse of the &quot;AI wrapper&quot; startup era, noting that 70% of AI pitches in a major accelerator program were dismissed as shallow API wrap</description>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-16.mp3" length="3978240" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-16.mp3</guid>
+      <itunes:duration>249</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-13</title>
       <description># Podcast Summary
 
