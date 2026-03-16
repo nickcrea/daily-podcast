@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-16",
+      "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping the AI and data infrastructure landscape: Apache Spark 4.1's new Real-Time Mode delivers true continuous streaming processing—a breakthrough that could eliminate the need for hybrid Spark-Flink setups for latency-critical applications like fraud detection. The conversation then pivots to intensifying AI safety concerns, connecting recent legal cases involving AI chatbots in mass casualty incidents with Anthropic's safety positioning and the broader governance challenge as AI systems outpace regulatory frameworks. Finally, the hosts examine the collapse of the \"AI wrapper\" startup era, noting that 70% of AI pitches in a major accelerator program were dismissed as shallow API wrap",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-13",
       "summary": "# Podcast Summary\n\nThis episode covers three major developments reshaping the AI landscape: **Anthropic's $100 million Claude Partner Network investment**, a strategic move to build commercial ecosystem dominance while simultaneously launching their AI safety institute; **Nvidia's GTC keynote** (happening live during recording), where infrastructure announcements around inference-optimized hardware will likely set the tone for enterprise AI deployment strategies; and **Databricks' governance and serverless compute frameworks**, addressing the critical but often overlooked foundations needed for production AI systems—from security safeguards against prompt injection attacks to infrastructure that scales dynamically with agent workloads. The episode also highlights emerging research on model distillation efficiency and competitive dynamics between Claude and",
       "keyTopics": []
