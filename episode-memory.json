@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-17",
+      "summary": "# Episode Summary\n\nThis episode explores two major developments reshaping AI infrastructure: Databricks' integrated platform for production AI agents—combining evaluation, deployment, and monitoring tools to bridge the gap between prototyping and enterprise trust—and Nvidia's announcement of one trillion dollars in expected orders for Blackwell and Vera Rubin chips, signaling massive structural shifts in AI investment. The discussion also covers emerging governance risks as AI systems move into sensitive government and financial applications, highlighting the gap between deployment speed and regulatory oversight.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-16",
       "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping the AI and data infrastructure landscape: Apache Spark 4.1's new Real-Time Mode delivers true continuous streaming processing—a breakthrough that could eliminate the need for hybrid Spark-Flink setups for latency-critical applications like fraud detection. The conversation then pivots to intensifying AI safety concerns, connecting recent legal cases involving AI chatbots in mass casualty incidents with Anthropic's safety positioning and the broader governance challenge as AI systems outpace regulatory frameworks. Finally, the hosts examine the collapse of the \"AI wrapper\" startup era, noting that 70% of AI pitches in a major accelerator program were dismissed as shallow API wrap",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-02-26",
       "summary": "# Episode Summary\n\nThis episode covers three major developments in enterprise AI: Anthropic's acquisition of Vercept to integrate computer-use agents into Claude, paired with the release of their Responsible Scaling Policy v3 to govern these increasingly capable systems safely; Nvidia's record quarterly results reflecting sustained hyperscaler demand for AI infrastructure; and Databricks' push toward AI-native data engineering through new tools like Agent Bricks and Lakeflow, plus adaptive governance solutions for EU regulatory compliance. The broader narrative threads together how agentic AI is moving from concept to production, the infrastructure powering it, and the data engineering layer that makes it operationally viable.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-02-25",
-      "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping AI and data infrastructure: Anthropic's upgraded Responsible Scaling Policy (version 3) introduces stricter safety thresholds and distillation attack detection, signaling serious commitment to AI governance amid industry skepticism. Databricks launches Zerobus Ingest for real-time data pipelines and pushes toward fully declarative data engineering, addressing the operational complexity that's kept many organizations stuck between pilots and production. The broader theme emerging across both stories is that AI and data infrastructure are finally moving beyond experimental projects into genuine operational capability—but only for organizations that can combine robust safety practices with reliable, governed data systems.",
       "keyTopics": []
     }
   ]
