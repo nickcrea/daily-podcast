@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-17</title>
+      <description># Episode Summary
+
+This episode explores two major developments reshaping AI infrastructure: Databricks&apos; integrated platform for production AI agents—combining evaluation, deployment, and monitoring tools to bridge the gap between prototyping and enterprise trust—and Nvidia&apos;s announcement of one trillion dollars in expected orders for Blackwell and Vera Rubin chips, signaling massive structural shifts in AI investment. The discussion also covers emerging governance risks as AI systems move into sensitive government and financial applications, highlighting the gap between deployment speed and regulatory oversight.</description>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-17.mp3" length="4310400" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-17.mp3</guid>
+      <itunes:duration>269</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-16</title>
       <description># Episode Summary
 
