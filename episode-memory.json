@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-18",
+      "summary": "# Episode Summary\n\nThis episode covers the intensifying battle across the enterprise AI stack, with Mistral launching a custom model-building platform (Mistral Forge) to challenge OpenAI and Anthropic in regulated industries, while the Pentagon moves away from Anthropic toward alternative providers like Google. Additionally, Databricks releases a specialized embedding model for agentic workflows, consolidating more of the production AI layer on a single platform, while the broader conversation around AI tooling explores the tension between paid solutions like Claude Code and open-source alternatives.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-17",
       "summary": "# Episode Summary\n\nThis episode explores two major developments reshaping AI infrastructure: Databricks' integrated platform for production AI agents—combining evaluation, deployment, and monitoring tools to bridge the gap between prototyping and enterprise trust—and Nvidia's announcement of one trillion dollars in expected orders for Blackwell and Vera Rubin chips, signaling massive structural shifts in AI investment. The discussion also covers emerging governance risks as AI systems move into sensitive government and financial applications, highlighting the gap between deployment speed and regulatory oversight.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-02-27",
       "summary": "# Episode Summary\n\nThis week explores three major developments in enterprise AI and data infrastructure: Anthropic CEO Dario Amodei's principled refusal to grant the Pentagon unrestricted access to Claude, marking a critical test of AI safety commitments against institutional pressure; Databricks' expansion of its data marketplace with institutional finance data (Nasdaq's eVestment), positioning itself as an all-in-one platform for data enrichment and governance; and the broader shift toward AI-native data engineering through Databricks' declarative pipeline approach and emerging tools like Railway that promise to simplify cloud infrastructure for modern development teams. The episode also touches on strategic partnerships reshaping the AI landscape, including Mistral's",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-02-26",
-      "summary": "# Episode Summary\n\nThis episode covers three major developments in enterprise AI: Anthropic's acquisition of Vercept to integrate computer-use agents into Claude, paired with the release of their Responsible Scaling Policy v3 to govern these increasingly capable systems safely; Nvidia's record quarterly results reflecting sustained hyperscaler demand for AI infrastructure; and Databricks' push toward AI-native data engineering through new tools like Agent Bricks and Lakeflow, plus adaptive governance solutions for EU regulatory compliance. The broader narrative threads together how agentic AI is moving from concept to production, the infrastructure powering it, and the data engineering layer that makes it operationally viable.",
       "keyTopics": []
     }
   ]
