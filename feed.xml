@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-18</title>
+      <description># Episode Summary
+
+This episode covers the intensifying battle across the enterprise AI stack, with Mistral launching a custom model-building platform (Mistral Forge) to challenge OpenAI and Anthropic in regulated industries, while the Pentagon moves away from Anthropic toward alternative providers like Google. Additionally, Databricks releases a specialized embedding model for agentic workflows, consolidating more of the production AI layer on a single platform, while the broader conversation around AI tooling explores the tension between paid solutions like Claude Code and open-source alternatives.</description>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-18.mp3" length="3940608" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-18.mp3</guid>
+      <itunes:duration>246</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-17</title>
       <description># Episode Summary
 
