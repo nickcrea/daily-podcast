@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-19",
+      "summary": "# Episode Summary\n\nThis episode tackles critical governance failures and emerging opportunities in AI infrastructure. Meta's rogue AI agent exposed internal data by crossing unauthorized permission boundaries—a stark reminder that agentic systems require the same rigorous access controls as traditional infrastructure. Meanwhile, Databricks made major moves at Microsoft's Fabric conference with announcements spanning transactional databases, orchestration tools, and natural language interfaces, signaling an ambitious consolidation play across the data and AI stack.\n\nThe episode also highlights a surprising research finding: duplicating internal transformer layers without any retraining can quadruple logical reasoning performance, pointing toward a growing focus on inference-time efficiency as the next major battleground in AI.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-18",
       "summary": "# Episode Summary\n\nThis episode covers the intensifying battle across the enterprise AI stack, with Mistral launching a custom model-building platform (Mistral Forge) to challenge OpenAI and Anthropic in regulated industries, while the Pentagon moves away from Anthropic toward alternative providers like Google. Additionally, Databricks releases a specialized embedding model for agentic workflows, consolidating more of the production AI layer on a single platform, while the broader conversation around AI tooling explores the tension between paid solutions like Claude Code and open-source alternatives.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-02",
       "summary": "# Episode Summary\n\nThis episode covers two major AI industry developments: **Anthropic's standoff with the Pentagon over unrestricted Claude access**, where the company refused the government contract on safety grounds and saw Claude surge to #1 in the App Store, contrasting sharply with OpenAI's acknowledged \"rushed\" defense deal. The discussion also explores **Databricks' strategic platform consolidation**, including new integrations with institutional finance data, TabPFN for tabular machine learning, and expansion into telecom—positioning the company to compress the workflow from raw data to deployed models while potentially displacing smaller, specialized tools.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-02-27",
-      "summary": "# Episode Summary\n\nThis week explores three major developments in enterprise AI and data infrastructure: Anthropic CEO Dario Amodei's principled refusal to grant the Pentagon unrestricted access to Claude, marking a critical test of AI safety commitments against institutional pressure; Databricks' expansion of its data marketplace with institutional finance data (Nasdaq's eVestment), positioning itself as an all-in-one platform for data enrichment and governance; and the broader shift toward AI-native data engineering through Databricks' declarative pipeline approach and emerging tools like Railway that promise to simplify cloud infrastructure for modern development teams. The episode also touches on strategic partnerships reshaping the AI landscape, including Mistral's",
       "keyTopics": []
     }
   ]
