@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-20</title>
+      <description># Episode Summary
+
+This week&apos;s show covers four major developments shaping enterprise AI infrastructure: Databricks&apos; new serverless GPU training capabilities closing a critical gap in their production AI stack, Apache Spark&apos;s Real-Time Mode reaching general availability to unify batch and streaming workloads, a striking forecast that bot traffic will exceed human traffic by 2027 with profound implications for web infrastructure and security, and Jeff Bezos&apos;s reported pursuit of a $100 billion industrial AI transformation fund targeting legacy manufacturing sectors. The episode underscores how AI is moving beyond software into physical infrastructure while simultaneously reshaping the fundamental assumptions about who and what uses internet systems.</description>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-20.mp3" length="4028352" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-20.mp3</guid>
+      <itunes:duration>252</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-19</title>
       <description># Episode Summary
 
