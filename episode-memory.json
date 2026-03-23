@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-23",
+      "summary": "# Episode Summary\n\nAs AI agents move from research to production, Databricks has released a major security framework addressing the unique risks these systems pose—including prompt injection attacks and privilege escalation—signaling that the industry is finally treating agent safety as a critical infrastructure problem rather than a future concern. Meanwhile, real-world data from Walmart reveals a sobering truth: AI-powered checkout converts at three times *worse* than standard interfaces, challenging the narrative that conversational AI automatically improves commerce and highlighting the gap between research intent and actual purchase behavior. The episode also covers Amazon's push of its Trainium chip as a credible Nvidia alternative, backed by commitments from major labs like Anthropic and OpenAI,",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-20",
       "summary": "# Episode Summary\n\nThis week's show covers four major developments shaping enterprise AI infrastructure: Databricks' new serverless GPU training capabilities closing a critical gap in their production AI stack, Apache Spark's Real-Time Mode reaching general availability to unify batch and streaming workloads, a striking forecast that bot traffic will exceed human traffic by 2027 with profound implications for web infrastructure and security, and Jeff Bezos's reported pursuit of a $100 billion industrial AI transformation fund targeting legacy manufacturing sectors. The episode underscores how AI is moving beyond software into physical infrastructure while simultaneously reshaping the fundamental assumptions about who and what uses internet systems.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-04",
       "summary": "# Episode Summary\n\nDatabricks launches Lakebase to general availability on Azure, collapsing the traditional divide between application and data workloads into a single platform—a strategic move that directly challenges competitors like Snowflake and signals the maturation of enterprise AI infrastructure. Meanwhile, the AI coding space heats up with Anthropic adding voice mode to Claude Code while open source alternatives like Goose close the capability gap at a fraction of the cost, putting real price pressure on premium tools that charge up to $200/month.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-03",
-      "summary": "# Episode Summary\n\nThis episode explores a pivotal moment in AI governance as OpenAI and Anthropic take opposing stances on government access to their models, with ChatGPT uninstalls surging 295% after OpenAI's Pentagon deal and Anthropic emerging as the consumer preference for AI safety. Meanwhile, Databricks is consolidating its data platform with new real-time streaming capabilities and expanding into financial services through partnerships and agentic analytics deployments. The show closes with Cursor's remarkable $2 billion annualized revenue milestone, signaling a thriving and competitive market for AI-powered developer tools.",
       "keyTopics": []
     }
   ]
