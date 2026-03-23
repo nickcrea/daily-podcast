@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-23</title>
+      <description># Episode Summary
+
+As AI agents move from research to production, Databricks has released a major security framework addressing the unique risks these systems pose—including prompt injection attacks and privilege escalation—signaling that the industry is finally treating agent safety as a critical infrastructure problem rather than a future concern. Meanwhile, real-world data from Walmart reveals a sobering truth: AI-powered checkout converts at three times *worse* than standard interfaces, challenging the narrative that conversational AI automatically improves commerce and highlighting the gap between research intent and actual purchase behavior. The episode also covers Amazon&apos;s push of its Trainium chip as a credible Nvidia alternative, backed by commitments from major labs like Anthropic and OpenAI,</description>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-23.mp3" length="4304832" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-23.mp3</guid>
+      <itunes:duration>269</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-20</title>
       <description># Episode Summary
 
