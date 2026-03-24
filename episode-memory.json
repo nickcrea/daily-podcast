@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-24",
+      "summary": "# Episode Summary\n\nThis episode covers four major developments in AI and infrastructure: a breakthrough demo showing a 400-billion-parameter LLM running on an iPhone 17 Pro ahead of Apple's WWDC 2026 announcements, Databricks' new AutoCDC feature that simplifies change data capture pipelines with just four lines of Python, Gimlet Labs' $80M Series A for multi-chip inference abstraction across Nvidia, AMD, Intel, and other vendors, and consolidation signals in the AI-assisted coding space with Lovable acquiring startups. The episode explores how these developments reshape cloud economics, enterprise data engineering, chip competition, and the maturing AI startup ecosystem.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-23",
       "summary": "# Episode Summary\n\nAs AI agents move from research to production, Databricks has released a major security framework addressing the unique risks these systems pose—including prompt injection attacks and privilege escalation—signaling that the industry is finally treating agent safety as a critical infrastructure problem rather than a future concern. Meanwhile, real-world data from Walmart reveals a sobering truth: AI-powered checkout converts at three times *worse* than standard interfaces, challenging the narrative that conversational AI automatically improves commerce and highlighting the gap between research intent and actual purchase behavior. The episode also covers Amazon's push of its Trainium chip as a credible Nvidia alternative, backed by commitments from major labs like Anthropic and OpenAI,",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-05",
       "summary": "# Episode Summary\n\nThis episode covers three major stories shaping the AI and data infrastructure landscape: Nvidia's strategic pullback from direct investments in frontier AI labs like OpenAI and Anthropic, signaling a pivot away from geopolitical and regulatory risk; Anthropic CEO Dario Amodei publicly calling OpenAI's Pentagon deal messaging \"straight up lies,\" escalating a safety-credibility battle that's already shifting enterprise preferences; and Databricks' new data discovery features in Unity Catalog that add business context to data governance, demonstrated by Bayer's global-scale deployment. The episode also touches on emerging research around goal drift in coding agents—a practical alignment challenge for teams deploying autonomous AI",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-04",
-      "summary": "# Episode Summary\n\nDatabricks launches Lakebase to general availability on Azure, collapsing the traditional divide between application and data workloads into a single platform—a strategic move that directly challenges competitors like Snowflake and signals the maturation of enterprise AI infrastructure. Meanwhile, the AI coding space heats up with Anthropic adding voice mode to Claude Code while open source alternatives like Goose close the capability gap at a fraction of the cost, putting real price pressure on premium tools that charge up to $200/month.",
       "keyTopics": []
     }
   ]
