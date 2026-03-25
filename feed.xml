@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-25</title>
+      <description># Episode Summary
+
+This episode covers four major developments reshaping the AI and enterprise tech landscape: Databricks&apos; bold entry into the security market with Lakewatch, an agentic SIEM that leverages existing enterprise data; a critical supply chain vulnerability in the popular LiteLLM library that threatens AI development pipelines across the ecosystem; Claude Code&apos;s new auto mode upgrade that enables more autonomous task execution with built-in safety guardrails; and Kleiner Perkins&apos; $3.5 billion AI-focused fund that signals a shift from experimental bets toward scaling companies with proven product-market fit. Together, these stories paint a picture of AI infrastructure moving from experimentation toward consolidation and enterprise</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-25.mp3" length="3984576" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-25.mp3</guid>
+      <itunes:duration>249</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-24</title>
       <description># Episode Summary
 
