@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-26</title>
+      <description># Episode Summary
+
+This episode explores the widening AI skills gap where experienced power users are pulling ahead while others lag behind, examines Google&apos;s promising TurboQuant memory compression technique that could slash AI inference costs, and covers Mistral&apos;s new on-device speech synthesis model bringing capable AI to smartphones and smartwatches. The discussion also addresses the reality that most Claude-generated code sits unused in low-star repositories, and highlights Anthropic&apos;s $100 million investment in building an ecosystem of Claude partners to compete in an increasingly converged AI market.</description>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-26.mp3" length="4046976" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-26.mp3</guid>
+      <itunes:duration>253</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-25</title>
       <description># Episode Summary
 
