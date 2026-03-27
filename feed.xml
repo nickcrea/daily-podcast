@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-27</title>
+      <description># Episode Summary
+
+This episode covers three major developments reshaping the AI landscape: Anthropic&apos;s federal court victory against government restrictions on its Defense Department work, signaling broader implications for industry independence; the Senate&apos;s bipartisan push to collect detailed power consumption data from data centers, marking the early stages of AI infrastructure regulation; and a quieter but significant cost shift in the developer community, where consumer GPUs are matching frontier models on benchmarks and AI-generated code is delivering measurable ROI—all pointing to a narrowing gap between local and cloud-based AI capabilities. The episode also touches on supply chain security lessons from the LiteLLM malware incident and Google&apos;s new data portability features for Gemini as</description>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-27.mp3" length="3759936" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-27.mp3</guid>
+      <itunes:duration>235</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-26</title>
       <description># Episode Summary
 
