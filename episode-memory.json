@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-03-31",
+      "summary": "# Podcast Summary\n\nThis episode explores how AI is reshaping database infrastructure, the growing trust deficit among Americans using AI tools, and where infrastructure investment is actually flowing. Databricks is pioneering agentic database design through Lakebase to handle AI agents as primary users, while polling data reveals a concerning gap between rising AI adoption and declining public trust—a dynamic that's likely to trigger regulatory responses. Meanwhile, funding rounds for companies like ScaleOps and Railway signal that the AI infrastructure market is shifting from a gold-rush mentality to a cost-rationalization phase, with investors betting on automation and AI-native cloud platforms over legacy infrastructure.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-03-30",
       "summary": "# Episode Summary\n\nOpenAI's surprise shutdown of Sora reveals a harder truth about AI video generation: despite impressive demos, the technology remains computationally expensive and hasn't achieved the user retention needed to justify infrastructure costs, signaling a broader pattern of AI products that look spectacular in theory but hit walls in real-world use. On the flip side, Starcloud's $170 million Series A and unicorn status in just 17 months shows how space-based data centers could solve the infrastructure bottleneck, while AI coding agents are emerging as an unexpected lifeline for burnt-out open source maintainers. The episode also flags a Stanford study on AI sycophancy—the danger of AI chatb",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-12",
       "summary": "# The Data and AI Daily Episode Summary\n\nDatabricks made two strategic moves to strengthen its agentic AI platform: acquiring Quotient AI to address the critical challenge of evaluating multi-step agent behavior, and launching Genie Code to extend its natural language interface into code generation. Meanwhile, Google unveiled a clever approach to flood prediction in data-scarce regions by using LLMs to extract structured data from historical news reports, demonstrating how language models are increasingly valuable as data transformation tools rather than just answer engines.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-11",
-      "summary": "# Episode Summary\n\nAnthropic launches a new independent Institute focused on AI safety research and policy—a strategic move to build credibility amid Pentagon contract disputes—while expanding internationally with a new Sydney office. Meanwhile, Google steps in to provide AI agents to the Pentagon, highlighting the real-world consequences of safety-focused restrictions and accelerating broader government AI procurement. The episode also explores the maturing agentic AI infrastructure layer, where new evaluation frameworks, identity protocols, and budget-constraint research are enabling trustworthy, scalable multi-agent deployments—plus Amazon's quiet entry into consumer healthcare AI.",
       "keyTopics": []
     }
   ]
