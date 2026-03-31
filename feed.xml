@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-03-31</title>
+      <description># Podcast Summary
+
+This episode explores how AI is reshaping database infrastructure, the growing trust deficit among Americans using AI tools, and where infrastructure investment is actually flowing. Databricks is pioneering agentic database design through Lakebase to handle AI agents as primary users, while polling data reveals a concerning gap between rising AI adoption and declining public trust—a dynamic that&apos;s likely to trigger regulatory responses. Meanwhile, funding rounds for companies like ScaleOps and Railway signal that the AI infrastructure market is shifting from a gold-rush mentality to a cost-rationalization phase, with investors betting on automation and AI-native cloud platforms over legacy infrastructure.</description>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-31.mp3" length="4382400" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-03-31.mp3</guid>
+      <itunes:duration>274</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-03-30</title>
       <description># Episode Summary
 
