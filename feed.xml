@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-06</title>
+      <description># Episode Summary
+
+This episode covers three major developments in AI: Anthropic&apos;s controversial pricing increase for Claude Code amid ongoing trust challenges from recent security incidents, Google DeepMind&apos;s release of Gemma 4—a highly capable open-source model now running efficiently on local devices like MacBooks—and Microsoft&apos;s legally questionable decision to label Copilot as &quot;for entertainment purposes only&quot; in its terms of service despite marketing it as an enterprise productivity tool. The discussion also touches on emerging research around autonomous multi-agent systems and improved AI benchmarking methodologies that reflect the field&apos;s evolution beyond conventional performance metrics.</description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-06.mp3" length="3763968" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-06.mp3</guid>
+      <itunes:duration>235</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-03</title>
       <description># Episode Summary
 
