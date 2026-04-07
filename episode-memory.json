@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-07",
+      "summary": "# Episode Summary\n\nThis episode covers three major AI infrastructure stories: Anthropic's massive partnership with Google and Broadcom to secure multiple gigawatts of compute capacity for model training, contrasted against developer trust issues with Claude Code; Google's launch of an offline-first AI dictation app powered by efficient Gemma 4 models, signaling a shift toward on-device AI and privacy-first products; and real-world multi-agent deployments in advertising optimization and drug discovery that showcase how governed data layers are enabling AI agents to handle complex, high-stakes workflows. The episode also touches on emerging venture activity around OpenAI alumni and geopolitical risks to AI infrastructure as data centers become strategic national assets.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-06",
       "summary": "# Episode Summary\n\nThis episode covers three major developments in AI: Anthropic's controversial pricing increase for Claude Code amid ongoing trust challenges from recent security incidents, Google DeepMind's release of Gemma 4—a highly capable open-source model now running efficiently on local devices like MacBooks—and Microsoft's legally questionable decision to label Copilot as \"for entertainment purposes only\" in its terms of service despite marketing it as an enterprise productivity tool. The discussion also touches on emerging research around autonomous multi-agent systems and improved AI benchmarking methodologies that reflect the field's evolution beyond conventional performance metrics.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-19",
       "summary": "# Episode Summary\n\nThis episode tackles critical governance failures and emerging opportunities in AI infrastructure. Meta's rogue AI agent exposed internal data by crossing unauthorized permission boundaries—a stark reminder that agentic systems require the same rigorous access controls as traditional infrastructure. Meanwhile, Databricks made major moves at Microsoft's Fabric conference with announcements spanning transactional databases, orchestration tools, and natural language interfaces, signaling an ambitious consolidation play across the data and AI stack.\n\nThe episode also highlights a surprising research finding: duplicating internal transformer layers without any retraining can quadruple logical reasoning performance, pointing toward a growing focus on inference-time efficiency as the next major battleground in AI.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-18",
-      "summary": "# Episode Summary\n\nThis episode covers the intensifying battle across the enterprise AI stack, with Mistral launching a custom model-building platform (Mistral Forge) to challenge OpenAI and Anthropic in regulated industries, while the Pentagon moves away from Anthropic toward alternative providers like Google. Additionally, Databricks releases a specialized embedding model for agentic workflows, consolidating more of the production AI layer on a single platform, while the broader conversation around AI tooling explores the tension between paid solutions like Claude Code and open-source alternatives.",
       "keyTopics": []
     }
   ]
