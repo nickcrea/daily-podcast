@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-07</title>
+      <description># Episode Summary
+
+This episode covers three major AI infrastructure stories: Anthropic&apos;s massive partnership with Google and Broadcom to secure multiple gigawatts of compute capacity for model training, contrasted against developer trust issues with Claude Code; Google&apos;s launch of an offline-first AI dictation app powered by efficient Gemma 4 models, signaling a shift toward on-device AI and privacy-first products; and real-world multi-agent deployments in advertising optimization and drug discovery that showcase how governed data layers are enabling AI agents to handle complex, high-stakes workflows. The episode also touches on emerging venture activity around OpenAI alumni and geopolitical risks to AI infrastructure as data centers become strategic national assets.</description>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-07.mp3" length="4365696" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-07.mp3</guid>
+      <itunes:duration>273</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-06</title>
       <description># Episode Summary
 
