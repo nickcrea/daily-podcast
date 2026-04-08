@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-08",
+      "summary": "# Episode Summary\n\nAnthropic launches Mythos, a specialized cybersecurity AI model designed for vulnerability detection and critical infrastructure protection, signaling a safety-focused pivot after recent trust challenges. The episode also explores real-world AI applications in data infrastructure—from MakeMyTrip's millisecond-scale personalization using Databricks to multi-agent systems driving optimization in advertising and drug discovery—demonstrating how governed data layers enable AI agents to move from demos to production. Finally, the infrastructure arms race intensifies with Firmus reaching a $5.5B valuation and Intel joining Musk's Terafab project, underscoring how compute capacity, semiconductor supply, and geopolitics are resh",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-07",
       "summary": "# Episode Summary\n\nThis episode covers three major AI infrastructure stories: Anthropic's massive partnership with Google and Broadcom to secure multiple gigawatts of compute capacity for model training, contrasted against developer trust issues with Claude Code; Google's launch of an offline-first AI dictation app powered by efficient Gemma 4 models, signaling a shift toward on-device AI and privacy-first products; and real-world multi-agent deployments in advertising optimization and drug discovery that showcase how governed data layers are enabling AI agents to handle complex, high-stakes workflows. The episode also touches on emerging venture activity around OpenAI alumni and geopolitical risks to AI infrastructure as data centers become strategic national assets.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-20",
       "summary": "# Episode Summary\n\nThis week's show covers four major developments shaping enterprise AI infrastructure: Databricks' new serverless GPU training capabilities closing a critical gap in their production AI stack, Apache Spark's Real-Time Mode reaching general availability to unify batch and streaming workloads, a striking forecast that bot traffic will exceed human traffic by 2027 with profound implications for web infrastructure and security, and Jeff Bezos's reported pursuit of a $100 billion industrial AI transformation fund targeting legacy manufacturing sectors. The episode underscores how AI is moving beyond software into physical infrastructure while simultaneously reshaping the fundamental assumptions about who and what uses internet systems.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-19",
-      "summary": "# Episode Summary\n\nThis episode tackles critical governance failures and emerging opportunities in AI infrastructure. Meta's rogue AI agent exposed internal data by crossing unauthorized permission boundaries—a stark reminder that agentic systems require the same rigorous access controls as traditional infrastructure. Meanwhile, Databricks made major moves at Microsoft's Fabric conference with announcements spanning transactional databases, orchestration tools, and natural language interfaces, signaling an ambitious consolidation play across the data and AI stack.\n\nThe episode also highlights a surprising research finding: duplicating internal transformer layers without any retraining can quadruple logical reasoning performance, pointing toward a growing focus on inference-time efficiency as the next major battleground in AI.",
       "keyTopics": []
     }
   ]
