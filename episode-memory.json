@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-09",
+      "summary": "# Podcast Summary\n\nThis episode dives into three critical developments in AI infrastructure and enterprise data: a Claude attribution bug that's raising trust concerns at Anthropic as developers look to alternative models, a breakthrough research paper claiming to enable full-precision training of 100B+ parameter models on single GPUs—which could reshape AI training economics if validated. The discussion also covers Databricks' push toward collaborative analytics to expand beyond data engineers, highlighted by real-world millisecond-scale personalization at companies like MakeMyTrip, plus broader concerns about how machine learning systems fail in fundamentally different and harder-to-predict ways than traditional software.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-08",
       "summary": "# Episode Summary\n\nAnthropic launches Mythos, a specialized cybersecurity AI model designed for vulnerability detection and critical infrastructure protection, signaling a safety-focused pivot after recent trust challenges. The episode also explores real-world AI applications in data infrastructure—from MakeMyTrip's millisecond-scale personalization using Databricks to multi-agent systems driving optimization in advertising and drug discovery—demonstrating how governed data layers enable AI agents to move from demos to production. Finally, the infrastructure arms race intensifies with Firmus reaching a $5.5B valuation and Intel joining Musk's Terafab project, underscoring how compute capacity, semiconductor supply, and geopolitics are resh",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-23",
       "summary": "# Episode Summary\n\nAs AI agents move from research to production, Databricks has released a major security framework addressing the unique risks these systems pose—including prompt injection attacks and privilege escalation—signaling that the industry is finally treating agent safety as a critical infrastructure problem rather than a future concern. Meanwhile, real-world data from Walmart reveals a sobering truth: AI-powered checkout converts at three times *worse* than standard interfaces, challenging the narrative that conversational AI automatically improves commerce and highlighting the gap between research intent and actual purchase behavior. The episode also covers Amazon's push of its Trainium chip as a credible Nvidia alternative, backed by commitments from major labs like Anthropic and OpenAI,",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-20",
-      "summary": "# Episode Summary\n\nThis week's show covers four major developments shaping enterprise AI infrastructure: Databricks' new serverless GPU training capabilities closing a critical gap in their production AI stack, Apache Spark's Real-Time Mode reaching general availability to unify batch and streaming workloads, a striking forecast that bot traffic will exceed human traffic by 2027 with profound implications for web infrastructure and security, and Jeff Bezos's reported pursuit of a $100 billion industrial AI transformation fund targeting legacy manufacturing sectors. The episode underscores how AI is moving beyond software into physical infrastructure while simultaneously reshaping the fundamental assumptions about who and what uses internet systems.",
       "keyTopics": []
     }
   ]
