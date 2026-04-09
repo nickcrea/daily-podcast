@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-09</title>
+      <description># Podcast Summary
+
+This episode dives into three critical developments in AI infrastructure and enterprise data: a Claude attribution bug that&apos;s raising trust concerns at Anthropic as developers look to alternative models, a breakthrough research paper claiming to enable full-precision training of 100B+ parameter models on single GPUs—which could reshape AI training economics if validated. The discussion also covers Databricks&apos; push toward collaborative analytics to expand beyond data engineers, highlighted by real-world millisecond-scale personalization at companies like MakeMyTrip, plus broader concerns about how machine learning systems fail in fundamentally different and harder-to-predict ways than traditional software.</description>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-09.mp3" length="4432128" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-09.mp3</guid>
+      <itunes:duration>277</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-08</title>
       <description># Episode Summary
 
