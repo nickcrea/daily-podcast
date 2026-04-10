@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-10</title>
+      <description># Episode Summary
+
+This episode covers four major developments in data and AI: Apache Iceberg v3&apos;s public preview on Databricks, which advances open data standards and interoperability for analytics and AI workloads; questions surrounding Anthropic&apos;s limited rollout of its Mythos cybersecurity model and broader developer trust concerns; OpenAI&apos;s new $100/month pricing tier amid competitive pressure from Meta AI&apos;s rising app store rankings; and a $17M funding round for a startup building a Git successor designed for AI-generated code at scale. Throughout, the discussion emphasizes how governed data layers, safety-versus-access tradeoffs, and new developer tools are reshaping the AI infrastructure landscape.</description>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-10.mp3" length="4123584" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-10.mp3</guid>
+      <itunes:duration>258</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-09</title>
       <description># Podcast Summary
 
