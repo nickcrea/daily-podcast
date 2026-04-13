@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-13",
+      "summary": "# Episode Summary\n\nThis episode covers four major developments reshaping AI infrastructure and enterprise adoption. Databricks introduces memory scaling for AI agents and Git-style database branching through Lakebase—both positioning the lakehouse as central to production AI workflows. Anthropic navigates a turbulent week marked by technical trust issues alongside strong developer sentiment at HumanX, complicated further by contradictory federal signals about the company's cybersecurity model. Finally, Kepler Communications launches the first commercial orbital compute service, moving GPU inference literally into space for satellite data processing—a breakthrough in edge AI architecture that represents an unexpected frontier in the infrastructure arms race.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-10",
       "summary": "# Episode Summary\n\nThis episode covers four major developments in data and AI: Apache Iceberg v3's public preview on Databricks, which advances open data standards and interoperability for analytics and AI workloads; questions surrounding Anthropic's limited rollout of its Mythos cybersecurity model and broader developer trust concerns; OpenAI's new $100/month pricing tier amid competitive pressure from Meta AI's rising app store rankings; and a $17M funding round for a startup building a Git successor designed for AI-generated code at scale. Throughout, the discussion emphasizes how governed data layers, safety-versus-access tradeoffs, and new developer tools are reshaping the AI infrastructure landscape.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-25",
       "summary": "# Episode Summary\n\nThis episode covers four major developments reshaping the AI and enterprise tech landscape: Databricks' bold entry into the security market with Lakewatch, an agentic SIEM that leverages existing enterprise data; a critical supply chain vulnerability in the popular LiteLLM library that threatens AI development pipelines across the ecosystem; Claude Code's new auto mode upgrade that enables more autonomous task execution with built-in safety guardrails; and Kleiner Perkins' $3.5 billion AI-focused fund that signals a shift from experimental bets toward scaling companies with proven product-market fit. Together, these stories paint a picture of AI infrastructure moving from experimentation toward consolidation and enterprise",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-24",
-      "summary": "# Episode Summary\n\nThis episode covers four major developments in AI and infrastructure: a breakthrough demo showing a 400-billion-parameter LLM running on an iPhone 17 Pro ahead of Apple's WWDC 2026 announcements, Databricks' new AutoCDC feature that simplifies change data capture pipelines with just four lines of Python, Gimlet Labs' $80M Series A for multi-chip inference abstraction across Nvidia, AMD, Intel, and other vendors, and consolidation signals in the AI-assisted coding space with Lovable acquiring startups. The episode explores how these developments reshape cloud economics, enterprise data engineering, chip competition, and the maturing AI startup ecosystem.",
       "keyTopics": []
     }
   ]
