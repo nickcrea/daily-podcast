@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-13</title>
+      <description># Episode Summary
+
+This episode covers four major developments reshaping AI infrastructure and enterprise adoption. Databricks introduces memory scaling for AI agents and Git-style database branching through Lakebase—both positioning the lakehouse as central to production AI workflows. Anthropic navigates a turbulent week marked by technical trust issues alongside strong developer sentiment at HumanX, complicated further by contradictory federal signals about the company&apos;s cybersecurity model. Finally, Kepler Communications launches the first commercial orbital compute service, moving GPU inference literally into space for satellite data processing—a breakthrough in edge AI architecture that represents an unexpected frontier in the infrastructure arms race.</description>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-13.mp3" length="4088832" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-13.mp3</guid>
+      <itunes:duration>256</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-10</title>
       <description># Episode Summary
 
