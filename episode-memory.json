@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-14",
+      "summary": "# AI Tuesday: OpenAI Enters Personal Finance, Databricks Democratizes Data Apps, and a Troubling Industry Divide Emerges\n\nOpenAI's acquisition of financial startup Hiro signals an aggressive push to embed ChatGPT into everyday financial management, raising both product and privacy questions as the company expands beyond conversational AI into intimate user data. Meanwhile, Databricks' new integration with app-builder Lovable is democratizing enterprise data access, allowing non-technical teams to build data-driven applications without becoming dependent on data engineers. But overshadowing both moves is Stanford's latest AI Index report, which reveals a stark disconnect: industry insiders are optimistic about AI's future while",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-13",
       "summary": "# Episode Summary\n\nThis episode covers four major developments reshaping AI infrastructure and enterprise adoption. Databricks introduces memory scaling for AI agents and Git-style database branching through Lakebase—both positioning the lakehouse as central to production AI workflows. Anthropic navigates a turbulent week marked by technical trust issues alongside strong developer sentiment at HumanX, complicated further by contradictory federal signals about the company's cybersecurity model. Finally, Kepler Communications launches the first commercial orbital compute service, moving GPU inference literally into space for satellite data processing—a breakthrough in edge AI architecture that represents an unexpected frontier in the infrastructure arms race.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-26",
       "summary": "# Episode Summary\n\nThis episode explores the widening AI skills gap where experienced power users are pulling ahead while others lag behind, examines Google's promising TurboQuant memory compression technique that could slash AI inference costs, and covers Mistral's new on-device speech synthesis model bringing capable AI to smartphones and smartwatches. The discussion also addresses the reality that most Claude-generated code sits unused in low-star repositories, and highlights Anthropic's $100 million investment in building an ecosystem of Claude partners to compete in an increasingly converged AI market.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-25",
-      "summary": "# Episode Summary\n\nThis episode covers four major developments reshaping the AI and enterprise tech landscape: Databricks' bold entry into the security market with Lakewatch, an agentic SIEM that leverages existing enterprise data; a critical supply chain vulnerability in the popular LiteLLM library that threatens AI development pipelines across the ecosystem; Claude Code's new auto mode upgrade that enables more autonomous task execution with built-in safety guardrails; and Kleiner Perkins' $3.5 billion AI-focused fund that signals a shift from experimental bets toward scaling companies with proven product-market fit. Together, these stories paint a picture of AI infrastructure moving from experimentation toward consolidation and enterprise",
       "keyTopics": []
     }
   ]
