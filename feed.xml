@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-14</title>
+      <description># AI Tuesday: OpenAI Enters Personal Finance, Databricks Democratizes Data Apps, and a Troubling Industry Divide Emerges
+
+OpenAI&apos;s acquisition of financial startup Hiro signals an aggressive push to embed ChatGPT into everyday financial management, raising both product and privacy questions as the company expands beyond conversational AI into intimate user data. Meanwhile, Databricks&apos; new integration with app-builder Lovable is democratizing enterprise data access, allowing non-technical teams to build data-driven applications without becoming dependent on data engineers. But overshadowing both moves is Stanford&apos;s latest AI Index report, which reveals a stark disconnect: industry insiders are optimistic about AI&apos;s future while</description>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-14.mp3" length="3413952" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-14.mp3</guid>
+      <itunes:duration>213</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-13</title>
       <description># Episode Summary
 
