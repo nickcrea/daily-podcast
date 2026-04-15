@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-15",
+      "summary": "# Episode Summary\n\nThis episode dives into the intensifying enterprise AI agent race, with Databricks unveiling Agent Bricks—a governed platform positioning data governance as the key to production-ready AI agents in regulated industries. Meanwhile, Google quietly released Gemma 4 with full offline inference on iPhone, opening new possibilities for edge AI development without cloud dependencies. The show also explores Anthropic's complex positioning: simultaneously briefing the Trump administration on cybersecurity tools while in legal disputes with the federal government, while investor sentiment increasingly favors Anthropic's focused approach over OpenAI's rapid expansion into new markets.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-14",
       "summary": "# AI Tuesday: OpenAI Enters Personal Finance, Databricks Democratizes Data Apps, and a Troubling Industry Divide Emerges\n\nOpenAI's acquisition of financial startup Hiro signals an aggressive push to embed ChatGPT into everyday financial management, raising both product and privacy questions as the company expands beyond conversational AI into intimate user data. Meanwhile, Databricks' new integration with app-builder Lovable is democratizing enterprise data access, allowing non-technical teams to build data-driven applications without becoming dependent on data engineers. But overshadowing both moves is Stanford's latest AI Index report, which reveals a stark disconnect: industry insiders are optimistic about AI's future while",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-27",
       "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping the AI landscape: Anthropic's federal court victory against government restrictions on its Defense Department work, signaling broader implications for industry independence; the Senate's bipartisan push to collect detailed power consumption data from data centers, marking the early stages of AI infrastructure regulation; and a quieter but significant cost shift in the developer community, where consumer GPUs are matching frontier models on benchmarks and AI-generated code is delivering measurable ROI—all pointing to a narrowing gap between local and cloud-based AI capabilities. The episode also touches on supply chain security lessons from the LiteLLM malware incident and Google's new data portability features for Gemini as",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-26",
-      "summary": "# Episode Summary\n\nThis episode explores the widening AI skills gap where experienced power users are pulling ahead while others lag behind, examines Google's promising TurboQuant memory compression technique that could slash AI inference costs, and covers Mistral's new on-device speech synthesis model bringing capable AI to smartphones and smartwatches. The discussion also addresses the reality that most Claude-generated code sits unused in low-star repositories, and highlights Anthropic's $100 million investment in building an ecosystem of Claude partners to compete in an increasingly converged AI market.",
       "keyTopics": []
     }
   ]
