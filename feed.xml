@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-15</title>
+      <description># Episode Summary
+
+This episode dives into the intensifying enterprise AI agent race, with Databricks unveiling Agent Bricks—a governed platform positioning data governance as the key to production-ready AI agents in regulated industries. Meanwhile, Google quietly released Gemma 4 with full offline inference on iPhone, opening new possibilities for edge AI development without cloud dependencies. The show also explores Anthropic&apos;s complex positioning: simultaneously briefing the Trump administration on cybersecurity tools while in legal disputes with the federal government, while investor sentiment increasingly favors Anthropic&apos;s focused approach over OpenAI&apos;s rapid expansion into new markets.</description>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-15.mp3" length="3699648" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-15.mp3</guid>
+      <itunes:duration>231</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-14</title>
       <description># AI Tuesday: OpenAI Enters Personal Finance, Databricks Democratizes Data Apps, and a Troubling Industry Divide Emerges
 
