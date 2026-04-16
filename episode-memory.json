@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-16",
+      "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping enterprise AI: Databricks' launch of Unity AI Gateway for governed agent infrastructure with secure Model Context Protocol connections, OpenAI's expanded Agents SDK focusing on safety and reliability, and a federal court ruling that AI chat conversations lack attorney-client privilege—a decision with significant implications for enterprise policy around sensitive discussions with AI tools. The episode also highlights Hightouch's impressive $100M ARR milestone driven by AI agents for marketing automation, and Anthropic's appointment of Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust board, signaling a commitment to governance and institutional credibility.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-15",
       "summary": "# Episode Summary\n\nThis episode dives into the intensifying enterprise AI agent race, with Databricks unveiling Agent Bricks—a governed platform positioning data governance as the key to production-ready AI agents in regulated industries. Meanwhile, Google quietly released Gemma 4 with full offline inference on iPhone, opening new possibilities for edge AI development without cloud dependencies. The show also explores Anthropic's complex positioning: simultaneously briefing the Trump administration on cybersecurity tools while in legal disputes with the federal government, while investor sentiment increasingly favors Anthropic's focused approach over OpenAI's rapid expansion into new markets.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-03-30",
       "summary": "# Episode Summary\n\nOpenAI's surprise shutdown of Sora reveals a harder truth about AI video generation: despite impressive demos, the technology remains computationally expensive and hasn't achieved the user retention needed to justify infrastructure costs, signaling a broader pattern of AI products that look spectacular in theory but hit walls in real-world use. On the flip side, Starcloud's $170 million Series A and unicorn status in just 17 months shows how space-based data centers could solve the infrastructure bottleneck, while AI coding agents are emerging as an unexpected lifeline for burnt-out open source maintainers. The episode also flags a Stanford study on AI sycophancy—the danger of AI chatb",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-27",
-      "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping the AI landscape: Anthropic's federal court victory against government restrictions on its Defense Department work, signaling broader implications for industry independence; the Senate's bipartisan push to collect detailed power consumption data from data centers, marking the early stages of AI infrastructure regulation; and a quieter but significant cost shift in the developer community, where consumer GPUs are matching frontier models on benchmarks and AI-generated code is delivering measurable ROI—all pointing to a narrowing gap between local and cloud-based AI capabilities. The episode also touches on supply chain security lessons from the LiteLLM malware incident and Google's new data portability features for Gemini as",
       "keyTopics": []
     }
   ]
