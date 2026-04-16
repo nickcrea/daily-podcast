@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-16</title>
+      <description># Episode Summary
+
+This episode covers three major developments reshaping enterprise AI: Databricks&apos; launch of Unity AI Gateway for governed agent infrastructure with secure Model Context Protocol connections, OpenAI&apos;s expanded Agents SDK focusing on safety and reliability, and a federal court ruling that AI chat conversations lack attorney-client privilege—a decision with significant implications for enterprise policy around sensitive discussions with AI tools. The episode also highlights Hightouch&apos;s impressive $100M ARR milestone driven by AI agents for marketing automation, and Anthropic&apos;s appointment of Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust board, signaling a commitment to governance and institutional credibility.</description>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-16.mp3" length="4222272" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-16.mp3</guid>
+      <itunes:duration>264</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-15</title>
       <description># Episode Summary
 
