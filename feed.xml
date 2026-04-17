@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-17</title>
+      <description># Episode Summary
+
+This week in AI infrastructure and enterprise tooling: Anthropic shipped Claude Opus 4.7, positioning it as a reliability and reasoning upgrade for complex enterprise tasks while expanding compute partnerships with Google and Broadcom, even as OpenAI upgraded its Codex agentic coding tool to compete directly in the developer space. Meanwhile, Databricks made a quiet but significant push into unstructured data with Document Intelligence and Lakeflow, addressing the reality that 80% of enterprise knowledge lives outside structured data warehouses—a gap that&apos;s become critical as production AI agents move from demos to real deployments.</description>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-17.mp3" length="4169472" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-17.mp3</guid>
+      <itunes:duration>261</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-16</title>
       <description># Episode Summary
 
