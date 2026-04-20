@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-20</title>
+      <description># Episode Summary
+
+This episode covers three major AI developments: Anthropic&apos;s launch of Claude Design, a new AI-native design tool positioning them as a competitor to Figma; Databricks&apos; rollout of Genie Agent Mode for autonomous multi-step data analysis and expanded coding agent governance through Unity AI Gateway to address emerging security concerns in enterprise AI deployments. The episode also flags an emerging story about the NSA allegedly using Anthropic technology it shouldn&apos;t have access to, which could create significant optics problems for a company built on responsible AI principles.</description>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-20.mp3" length="3845760" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-20.mp3</guid>
+      <itunes:duration>240</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-17</title>
       <description># Episode Summary
 
