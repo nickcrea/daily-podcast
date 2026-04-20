@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-20",
+      "summary": "# Episode Summary\n\nThis episode covers three major AI developments: Anthropic's launch of Claude Design, a new AI-native design tool positioning them as a competitor to Figma; Databricks' rollout of Genie Agent Mode for autonomous multi-step data analysis and expanded coding agent governance through Unity AI Gateway to address emerging security concerns in enterprise AI deployments. The episode also flags an emerging story about the NSA allegedly using Anthropic technology it shouldn't have access to, which could create significant optics problems for a company built on responsible AI principles.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-17",
       "summary": "# Episode Summary\n\nThis week in AI infrastructure and enterprise tooling: Anthropic shipped Claude Opus 4.7, positioning it as a reliability and reasoning upgrade for complex enterprise tasks while expanding compute partnerships with Google and Broadcom, even as OpenAI upgraded its Codex agentic coding tool to compete directly in the developer space. Meanwhile, Databricks made a quiet but significant push into unstructured data with Document Intelligence and Lakeflow, addressing the reality that 80% of enterprise knowledge lives outside structured data warehouses—a gap that's become critical as production AI agents move from demos to real deployments.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-01",
       "summary": "# Episode Summary\n\nThis episode covers three major stories reshaping the AI landscape: OpenAI's record $852 billion valuation from a $122 billion funding round that includes retail investors for the first time, signaling serious IPO momentum; a rough week for Anthropic marked by a Claude Code source leak revealing internal details like \"frustration regexes\" and \"undercover mode\" that's fueling trust concerns; and an expanding security crisis as the LiteLLM supply chain compromise hits real companies like Mercor through extortion attacks. The episode also highlights Claude's capability to autonomously write functional kernel-level exploits, Databricks' zero-downtime patching for AI agents, and promising",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-03-31",
-      "summary": "# Podcast Summary\n\nThis episode explores how AI is reshaping database infrastructure, the growing trust deficit among Americans using AI tools, and where infrastructure investment is actually flowing. Databricks is pioneering agentic database design through Lakebase to handle AI agents as primary users, while polling data reveals a concerning gap between rising AI adoption and declining public trust—a dynamic that's likely to trigger regulatory responses. Meanwhile, funding rounds for companies like ScaleOps and Railway signal that the AI infrastructure market is shifting from a gold-rush mentality to a cost-rationalization phase, with investors betting on automation and AI-native cloud platforms over legacy infrastructure.",
       "keyTopics": []
     }
   ]
