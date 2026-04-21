@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-21</title>
+      <description># Episode Summary
+
+Amazon is investing another $5 billion into AI startup Anthropic in exchange for a $100 billion commitment to use Amazon&apos;s cloud services—a major infrastructure lock-in that signals how compute availability has become the key competitive battleground in frontier AI. Meanwhile, reporting suggests the NSA is using a restricted Anthropic model called Mythos without authorization, creating a credibility test for the company&apos;s responsible AI brand. Google continues shipping aggressively with new robotics reasoning models and offline-capable versions of Gemini, while Databricks methodically strengthens its enterprise appeal through data governance features and SaaS integrations that appeal to regulated industries.</description>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-21.mp3" length="4484928" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-21.mp3</guid>
+      <itunes:duration>280</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-20</title>
       <description># Episode Summary
 
