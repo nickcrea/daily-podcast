@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-22</title>
+      <description># Data and AI Daily Summary
+
+This episode covers three major stories shaping the AI industry: Anthropic faces a security credibility test after an unauthorized group gained access to its restricted Mythos cybersecurity model, threatening the company&apos;s brand as the &quot;responsible AI&quot; player just as it&apos;s absorbing a major Amazon investment. Databricks quietly shipped significant updates—AutoCDC for simplifying data pipelines, multimodal healthcare AI architectures, and an Excel Add-in to reach business users—positioning itself as the production AI platform for regulated industries. Google&apos;s multi-billion dollar infrastructure deal with Mira Murati&apos;s new Thinking Machines Lab signals that hyperscalers are aggressively securing</description>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-22.mp3" length="4443072" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-22.mp3</guid>
+      <itunes:duration>278</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-21</title>
       <description># Episode Summary
 
