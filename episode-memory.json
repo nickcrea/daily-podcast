@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-22",
+      "summary": "# Data and AI Daily Summary\n\nThis episode covers three major stories shaping the AI industry: Anthropic faces a security credibility test after an unauthorized group gained access to its restricted Mythos cybersecurity model, threatening the company's brand as the \"responsible AI\" player just as it's absorbing a major Amazon investment. Databricks quietly shipped significant updates—AutoCDC for simplifying data pipelines, multimodal healthcare AI architectures, and an Excel Add-in to reach business users—positioning itself as the production AI platform for regulated industries. Google's multi-billion dollar infrastructure deal with Mira Murati's new Thinking Machines Lab signals that hyperscalers are aggressively securing",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-21",
       "summary": "# Episode Summary\n\nAmazon is investing another $5 billion into AI startup Anthropic in exchange for a $100 billion commitment to use Amazon's cloud services—a major infrastructure lock-in that signals how compute availability has become the key competitive battleground in frontier AI. Meanwhile, reporting suggests the NSA is using a restricted Anthropic model called Mythos without authorization, creating a credibility test for the company's responsible AI brand. Google continues shipping aggressively with new robotics reasoning models and offline-capable versions of Gemini, while Databricks methodically strengthens its enterprise appeal through data governance features and SaaS integrations that appeal to regulated industries.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-03",
       "summary": "# Episode Summary\n\nThis week brings major moves from Databricks, Google, and Microsoft reshaping the AI infrastructure landscape. Databricks announced three coordinated launches—open-sourcing Unity Catalog Business Semantics, launching a free tier for Lakeflow Connect, and advocating for governed data layers in agentic AI—positioning data governance as essential infrastructure for reliable AI agents. Meanwhile, Google quietly released Gemma 4, an open-weight model claiming frontier-level capability at practical sizes, and Microsoft's MAI group published three new foundational models, signaling both companies' push toward reducing dependence on single model providers in an increasingly competitive open and closed model ecosystem.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-02",
-      "summary": "# Episode Summary\n\nThis episode covers three major stories shaping AI infrastructure: Anthropic's bungled attempt to scrub leaked Claude Code source from GitHub, which backfired when thousands of unrelated repositories were accidentally taken down, damaging the company's trust-focused brand. On the constructive side, Databricks' partnership with wealth management platform Addepar demonstrates how AI agents are becoming primary workflow drivers in regulated financial environments. Finally, startup Cognichip just raised $60 million to use AI for chip design itself, potentially cutting development timelines in half and costs by 75%—a recursive innovation that could ease the AI hardware bottleneck.",
       "keyTopics": []
     }
   ]
