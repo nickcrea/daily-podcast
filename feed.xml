@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-23</title>
+      <description># Episode Summary
+
+This episode explores whether LLM agents can handle critical database tasks like query optimization, breaking down Databricks&apos; research into the boundaries of AI reasoning in production data environments. We also cover Google&apos;s aggressive shipping pace across robotics, speech, open models, and enterprise productivity tools, plus the surprising SpaceX bid to acquire AI coding tool Cursor for up to $60 billion—a moment that reframes the market value of AI-accelerated developer infrastructure.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-23.mp3" length="4119360" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-23.mp3</guid>
+      <itunes:duration>257</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-22</title>
       <description># Data and AI Daily Summary
 
