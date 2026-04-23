@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-23",
+      "summary": "# Episode Summary\n\nThis episode explores whether LLM agents can handle critical database tasks like query optimization, breaking down Databricks' research into the boundaries of AI reasoning in production data environments. We also cover Google's aggressive shipping pace across robotics, speech, open models, and enterprise productivity tools, plus the surprising SpaceX bid to acquire AI coding tool Cursor for up to $60 billion—a moment that reframes the market value of AI-accelerated developer infrastructure.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-22",
       "summary": "# Data and AI Daily Summary\n\nThis episode covers three major stories shaping the AI industry: Anthropic faces a security credibility test after an unauthorized group gained access to its restricted Mythos cybersecurity model, threatening the company's brand as the \"responsible AI\" player just as it's absorbing a major Amazon investment. Databricks quietly shipped significant updates—AutoCDC for simplifying data pipelines, multimodal healthcare AI architectures, and an Excel Add-in to reach business users—positioning itself as the production AI platform for regulated industries. Google's multi-billion dollar infrastructure deal with Mira Murati's new Thinking Machines Lab signals that hyperscalers are aggressively securing",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-06",
       "summary": "# Episode Summary\n\nThis episode covers three major developments in AI: Anthropic's controversial pricing increase for Claude Code amid ongoing trust challenges from recent security incidents, Google DeepMind's release of Gemma 4—a highly capable open-source model now running efficiently on local devices like MacBooks—and Microsoft's legally questionable decision to label Copilot as \"for entertainment purposes only\" in its terms of service despite marketing it as an enterprise productivity tool. The discussion also touches on emerging research around autonomous multi-agent systems and improved AI benchmarking methodologies that reflect the field's evolution beyond conventional performance metrics.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-03",
-      "summary": "# Episode Summary\n\nThis week brings major moves from Databricks, Google, and Microsoft reshaping the AI infrastructure landscape. Databricks announced three coordinated launches—open-sourcing Unity Catalog Business Semantics, launching a free tier for Lakeflow Connect, and advocating for governed data layers in agentic AI—positioning data governance as essential infrastructure for reliable AI agents. Meanwhile, Google quietly released Gemma 4, an open-weight model claiming frontier-level capability at practical sizes, and Microsoft's MAI group published three new foundational models, signaling both companies' push toward reducing dependence on single model providers in an increasingly competitive open and closed model ecosystem.",
       "keyTopics": []
     }
   ]
