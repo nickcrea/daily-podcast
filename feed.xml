@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-24</title>
+      <description># Episode Summary
+
+OpenAI&apos;s new GPT-5.5 frontier model launches with a strategic partnership from Databricks, positioning the platform as the enterprise layer for running cutting-edge AI safely against proprietary data. Databricks also released Lakeflow Designer to public preview—a visual pipeline-building tool that could consolidate data engineering workflows within their lakehouse ecosystem. Meanwhile, Meta&apos;s deal to use Amazon&apos;s custom CPUs for AI agents signals a shift in infrastructure strategy: the hardware powering agent workloads may look fundamentally different from GPU-heavy model training, with real cost and efficiency implications for the AI infrastructure layer.</description>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-24.mp3" length="3898752" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-24.mp3</guid>
+      <itunes:duration>244</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-23</title>
       <description># Episode Summary
 
