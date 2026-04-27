@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-27</title>
+      <description># Episode Summary
+
+This episode covers three major developments in enterprise AI: agentic AI systems moving into production deployments, exemplified by Databricks&apos; LangGuard governance platform; significant new regulatory requirements for AI in banking through updated Federal Reserve Model Risk Management guidance; and Anthropic&apos;s experimental marketplace where AI agents autonomously buy and sell goods from each other. The discussion also touches on Google&apos;s rapid product releases including new open-source models and distributed training research, positioning major players as they compete to own enterprise AI infrastructure and governance layers.</description>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-27.mp3" length="4282368" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-27.mp3</guid>
+      <itunes:duration>268</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-24</title>
       <description># Episode Summary
 
