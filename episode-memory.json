@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-27",
+      "summary": "# Episode Summary\n\nThis episode covers three major developments in enterprise AI: agentic AI systems moving into production deployments, exemplified by Databricks' LangGuard governance platform; significant new regulatory requirements for AI in banking through updated Federal Reserve Model Risk Management guidance; and Anthropic's experimental marketplace where AI agents autonomously buy and sell goods from each other. The discussion also touches on Google's rapid product releases including new open-source models and distributed training research, positioning major players as they compete to own enterprise AI infrastructure and governance layers.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-24",
       "summary": "# Episode Summary\n\nOpenAI's new GPT-5.5 frontier model launches with a strategic partnership from Databricks, positioning the platform as the enterprise layer for running cutting-edge AI safely against proprietary data. Databricks also released Lakeflow Designer to public preview—a visual pipeline-building tool that could consolidate data engineering workflows within their lakehouse ecosystem. Meanwhile, Meta's deal to use Amazon's custom CPUs for AI agents signals a shift in infrastructure strategy: the hardware powering agent workloads may look fundamentally different from GPU-heavy model training, with real cost and efficiency implications for the AI infrastructure layer.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-08",
       "summary": "# Episode Summary\n\nAnthropic launches Mythos, a specialized cybersecurity AI model designed for vulnerability detection and critical infrastructure protection, signaling a safety-focused pivot after recent trust challenges. The episode also explores real-world AI applications in data infrastructure—from MakeMyTrip's millisecond-scale personalization using Databricks to multi-agent systems driving optimization in advertising and drug discovery—demonstrating how governed data layers enable AI agents to move from demos to production. Finally, the infrastructure arms race intensifies with Firmus reaching a $5.5B valuation and Intel joining Musk's Terafab project, underscoring how compute capacity, semiconductor supply, and geopolitics are resh",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-07",
-      "summary": "# Episode Summary\n\nThis episode covers three major AI infrastructure stories: Anthropic's massive partnership with Google and Broadcom to secure multiple gigawatts of compute capacity for model training, contrasted against developer trust issues with Claude Code; Google's launch of an offline-first AI dictation app powered by efficient Gemma 4 models, signaling a shift toward on-device AI and privacy-first products; and real-world multi-agent deployments in advertising optimization and drug discovery that showcase how governed data layers are enabling AI agents to handle complex, high-stakes workflows. The episode also touches on emerging venture activity around OpenAI alumni and geopolitical risks to AI infrastructure as data centers become strategic national assets.",
       "keyTopics": []
     }
   ]
