@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-28</title>
+      <description># Data and AI Daily Summary
+
+This episode covers three major stories reshaping the AI industry: OpenAI and Microsoft have ended their exclusive partnership, freeing OpenAI to sell on AWS alongside Amazon&apos;s existing deal with Anthropic and putting pressure on Microsoft&apos;s enterprise AI strategy. David Silver&apos;s new lab, Ineffable Intelligence, has raised $1.1 billion on a bold bet that AI can learn without human-generated data—challenging a foundational assumption of the current AI industry. Databricks released the next generation of Genie, its natural language data interface, positioning it as critical infrastructure for enterprise AI agents and agentic workflows, while also addressing security concerns highlighted by a major data breach affecting 40,</description>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-28.mp3" length="3837120" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-28.mp3</guid>
+      <itunes:duration>240</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-27</title>
       <description># Episode Summary
 
