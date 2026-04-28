@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-28",
+      "summary": "# Data and AI Daily Summary\n\nThis episode covers three major stories reshaping the AI industry: OpenAI and Microsoft have ended their exclusive partnership, freeing OpenAI to sell on AWS alongside Amazon's existing deal with Anthropic and putting pressure on Microsoft's enterprise AI strategy. David Silver's new lab, Ineffable Intelligence, has raised $1.1 billion on a bold bet that AI can learn without human-generated data—challenging a foundational assumption of the current AI industry. Databricks released the next generation of Genie, its natural language data interface, positioning it as critical infrastructure for enterprise AI agents and agentic workflows, while also addressing security concerns highlighted by a major data breach affecting 40,",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-27",
       "summary": "# Episode Summary\n\nThis episode covers three major developments in enterprise AI: agentic AI systems moving into production deployments, exemplified by Databricks' LangGuard governance platform; significant new regulatory requirements for AI in banking through updated Federal Reserve Model Risk Management guidance; and Anthropic's experimental marketplace where AI agents autonomously buy and sell goods from each other. The discussion also touches on Google's rapid product releases including new open-source models and distributed training research, positioning major players as they compete to own enterprise AI infrastructure and governance layers.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-09",
       "summary": "# Podcast Summary\n\nThis episode dives into three critical developments in AI infrastructure and enterprise data: a Claude attribution bug that's raising trust concerns at Anthropic as developers look to alternative models, a breakthrough research paper claiming to enable full-precision training of 100B+ parameter models on single GPUs—which could reshape AI training economics if validated. The discussion also covers Databricks' push toward collaborative analytics to expand beyond data engineers, highlighted by real-world millisecond-scale personalization at companies like MakeMyTrip, plus broader concerns about how machine learning systems fail in fundamentally different and harder-to-predict ways than traditional software.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-08",
-      "summary": "# Episode Summary\n\nAnthropic launches Mythos, a specialized cybersecurity AI model designed for vulnerability detection and critical infrastructure protection, signaling a safety-focused pivot after recent trust challenges. The episode also explores real-world AI applications in data infrastructure—from MakeMyTrip's millisecond-scale personalization using Databricks to multi-agent systems driving optimization in advertising and drug discovery—demonstrating how governed data layers enable AI agents to move from demos to production. Finally, the infrastructure arms race intensifies with Firmus reaching a $5.5B valuation and Intel joining Musk's Terafab project, underscoring how compute capacity, semiconductor supply, and geopolitics are resh",
       "keyTopics": []
     }
   ]
