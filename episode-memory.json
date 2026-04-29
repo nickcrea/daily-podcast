@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-29",
+      "summary": "# Episode Summary\n\nThis episode covers three major AI industry developments: OpenAI's rapid partnership with AWS to integrate its models into Amazon Bedrock, positioning AWS as a neutral marketplace for frontier AI models and threatening Microsoft's Azure dominance; and Databricks' push into agentic data engineering with Genie Code and Lakeflow, enabling data engineers to generate production-ready pipelines using natural language across healthcare, public sector, and cybersecurity verticals. The episode also explores Google's shipping momentum with Gemma 4 open models and distributed training research, alongside emerging tensions in defense AI contracting as companies like Scout AI raise capital for autonomous weapons systems while others like Anthropic draw ethical lines.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-28",
       "summary": "# Data and AI Daily Summary\n\nThis episode covers three major stories reshaping the AI industry: OpenAI and Microsoft have ended their exclusive partnership, freeing OpenAI to sell on AWS alongside Amazon's existing deal with Anthropic and putting pressure on Microsoft's enterprise AI strategy. David Silver's new lab, Ineffable Intelligence, has raised $1.1 billion on a bold bet that AI can learn without human-generated data—challenging a foundational assumption of the current AI industry. Databricks released the next generation of Genie, its natural language data interface, positioning it as critical infrastructure for enterprise AI agents and agentic workflows, while also addressing security concerns highlighted by a major data breach affecting 40,",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-10",
       "summary": "# Episode Summary\n\nThis episode covers four major developments in data and AI: Apache Iceberg v3's public preview on Databricks, which advances open data standards and interoperability for analytics and AI workloads; questions surrounding Anthropic's limited rollout of its Mythos cybersecurity model and broader developer trust concerns; OpenAI's new $100/month pricing tier amid competitive pressure from Meta AI's rising app store rankings; and a $17M funding round for a startup building a Git successor designed for AI-generated code at scale. Throughout, the discussion emphasizes how governed data layers, safety-versus-access tradeoffs, and new developer tools are reshaping the AI infrastructure landscape.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-09",
-      "summary": "# Podcast Summary\n\nThis episode dives into three critical developments in AI infrastructure and enterprise data: a Claude attribution bug that's raising trust concerns at Anthropic as developers look to alternative models, a breakthrough research paper claiming to enable full-precision training of 100B+ parameter models on single GPUs—which could reshape AI training economics if validated. The discussion also covers Databricks' push toward collaborative analytics to expand beyond data engineers, highlighted by real-world millisecond-scale personalization at companies like MakeMyTrip, plus broader concerns about how machine learning systems fail in fundamentally different and harder-to-predict ways than traditional software.",
       "keyTopics": []
     }
   ]
