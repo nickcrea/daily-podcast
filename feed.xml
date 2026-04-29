@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-29</title>
+      <description># Episode Summary
+
+This episode covers three major AI industry developments: OpenAI&apos;s rapid partnership with AWS to integrate its models into Amazon Bedrock, positioning AWS as a neutral marketplace for frontier AI models and threatening Microsoft&apos;s Azure dominance; and Databricks&apos; push into agentic data engineering with Genie Code and Lakeflow, enabling data engineers to generate production-ready pipelines using natural language across healthcare, public sector, and cybersecurity verticals. The episode also explores Google&apos;s shipping momentum with Gemma 4 open models and distributed training research, alongside emerging tensions in defense AI contracting as companies like Scout AI raise capital for autonomous weapons systems while others like Anthropic draw ethical lines.</description>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-29.mp3" length="4292928" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-29.mp3</guid>
+      <itunes:duration>268</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-28</title>
       <description># Data and AI Daily Summary
 
