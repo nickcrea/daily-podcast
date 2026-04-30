@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-04-30",
+      "summary": "# Episode Summary\n\nThis episode covers three major stories shaping the AI and data infrastructure landscape: Anthropic's reported $50 billion fundraise at an $850-900 billion valuation, signaling massive capital concentration in frontier AI models; Databricks' strategic move into operational databases with Lakebase, collapsing the traditional boundary between transactional and analytical systems to enable AI agents; and a philosophical pushback from the Zig programming language community against AI-generated code contributions, highlighting ongoing tensions between AI productivity gains and code quality concerns in high-stakes contexts. Additional coverage includes research on alignment vulnerabilities in fine-tuned models and Meta's quietly dominant position as one of the world's most-deployed",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-29",
       "summary": "# Episode Summary\n\nThis episode covers three major AI industry developments: OpenAI's rapid partnership with AWS to integrate its models into Amazon Bedrock, positioning AWS as a neutral marketplace for frontier AI models and threatening Microsoft's Azure dominance; and Databricks' push into agentic data engineering with Genie Code and Lakeflow, enabling data engineers to generate production-ready pipelines using natural language across healthcare, public sector, and cybersecurity verticals. The episode also explores Google's shipping momentum with Gemma 4 open models and distributed training research, alongside emerging tensions in defense AI contracting as companies like Scout AI raise capital for autonomous weapons systems while others like Anthropic draw ethical lines.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-13",
       "summary": "# Episode Summary\n\nThis episode covers four major developments reshaping AI infrastructure and enterprise adoption. Databricks introduces memory scaling for AI agents and Git-style database branching through Lakebase—both positioning the lakehouse as central to production AI workflows. Anthropic navigates a turbulent week marked by technical trust issues alongside strong developer sentiment at HumanX, complicated further by contradictory federal signals about the company's cybersecurity model. Finally, Kepler Communications launches the first commercial orbital compute service, moving GPU inference literally into space for satellite data processing—a breakthrough in edge AI architecture that represents an unexpected frontier in the infrastructure arms race.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-10",
-      "summary": "# Episode Summary\n\nThis episode covers four major developments in data and AI: Apache Iceberg v3's public preview on Databricks, which advances open data standards and interoperability for analytics and AI workloads; questions surrounding Anthropic's limited rollout of its Mythos cybersecurity model and broader developer trust concerns; OpenAI's new $100/month pricing tier amid competitive pressure from Meta AI's rising app store rankings; and a $17M funding round for a startup building a Git successor designed for AI-generated code at scale. Throughout, the discussion emphasizes how governed data layers, safety-versus-access tradeoffs, and new developer tools are reshaping the AI infrastructure landscape.",
       "keyTopics": []
     }
   ]
