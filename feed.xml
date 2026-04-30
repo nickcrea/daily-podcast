@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-04-30</title>
+      <description># Episode Summary
+
+This episode covers three major stories shaping the AI and data infrastructure landscape: Anthropic&apos;s reported $50 billion fundraise at an $850-900 billion valuation, signaling massive capital concentration in frontier AI models; Databricks&apos; strategic move into operational databases with Lakebase, collapsing the traditional boundary between transactional and analytical systems to enable AI agents; and a philosophical pushback from the Zig programming language community against AI-generated code contributions, highlighting ongoing tensions between AI productivity gains and code quality concerns in high-stakes contexts. Additional coverage includes research on alignment vulnerabilities in fine-tuned models and Meta&apos;s quietly dominant position as one of the world&apos;s most-deployed</description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-30.mp3" length="4551744" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-04-30.mp3</guid>
+      <itunes:duration>284</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-29</title>
       <description># Episode Summary
 
