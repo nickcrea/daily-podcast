@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-01</title>
+      <description># Episode Summary
+
+This week in AI is dominated by massive funding and competitive shifts: Anthropic is closing what could be the largest private AI funding round ever at a $850-900B valuation, with investors asked to commit within 48 hours, while simultaneously deepening its strategic partnership with Amazon on compute infrastructure. Meanwhile, Databricks is repositioning itself as the operational backbone for AI agents with Lakebase, a unified database that collapses the boundary between transactional and analytical systems—a move that could reshape the competitive landscape against incumbents like Snowflake and cloud providers. The episode also covers a humorous moment where OpenAI publicly criticized Anthropic&apos;s restricted cybersecurity AI tool,</description>
+      <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-01.mp3" length="4552128" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-01.mp3</guid>
+      <itunes:duration>285</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-04-30</title>
       <description># Episode Summary
 
