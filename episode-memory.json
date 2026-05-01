@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-01",
+      "summary": "# Episode Summary\n\nThis week in AI is dominated by massive funding and competitive shifts: Anthropic is closing what could be the largest private AI funding round ever at a $850-900B valuation, with investors asked to commit within 48 hours, while simultaneously deepening its strategic partnership with Amazon on compute infrastructure. Meanwhile, Databricks is repositioning itself as the operational backbone for AI agents with Lakebase, a unified database that collapses the boundary between transactional and analytical systems—a move that could reshape the competitive landscape against incumbents like Snowflake and cloud providers. The episode also covers a humorous moment where OpenAI publicly criticized Anthropic's restricted cybersecurity AI tool,",
+      "keyTopics": []
+    },
+    {
       "date": "2026-04-30",
       "summary": "# Episode Summary\n\nThis episode covers three major stories shaping the AI and data infrastructure landscape: Anthropic's reported $50 billion fundraise at an $850-900 billion valuation, signaling massive capital concentration in frontier AI models; Databricks' strategic move into operational databases with Lakebase, collapsing the traditional boundary between transactional and analytical systems to enable AI agents; and a philosophical pushback from the Zig programming language community against AI-generated code contributions, highlighting ongoing tensions between AI productivity gains and code quality concerns in high-stakes contexts. Additional coverage includes research on alignment vulnerabilities in fine-tuned models and Meta's quietly dominant position as one of the world's most-deployed",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-14",
       "summary": "# AI Tuesday: OpenAI Enters Personal Finance, Databricks Democratizes Data Apps, and a Troubling Industry Divide Emerges\n\nOpenAI's acquisition of financial startup Hiro signals an aggressive push to embed ChatGPT into everyday financial management, raising both product and privacy questions as the company expands beyond conversational AI into intimate user data. Meanwhile, Databricks' new integration with app-builder Lovable is democratizing enterprise data access, allowing non-technical teams to build data-driven applications without becoming dependent on data engineers. But overshadowing both moves is Stanford's latest AI Index report, which reveals a stark disconnect: industry insiders are optimistic about AI's future while",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-13",
-      "summary": "# Episode Summary\n\nThis episode covers four major developments reshaping AI infrastructure and enterprise adoption. Databricks introduces memory scaling for AI agents and Git-style database branching through Lakebase—both positioning the lakehouse as central to production AI workflows. Anthropic navigates a turbulent week marked by technical trust issues alongside strong developer sentiment at HumanX, complicated further by contradictory federal signals about the company's cybersecurity model. Finally, Kepler Communications launches the first commercial orbital compute service, moving GPU inference literally into space for satellite data processing—a breakthrough in edge AI architecture that represents an unexpected frontier in the infrastructure arms race.",
       "keyTopics": []
     }
   ]
