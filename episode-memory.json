@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-04",
+      "summary": "# Episode Summary\n\nThis week's episode digs into AI's breakthrough moment in emergency medicine, where OpenAI's o1 model outperformed human ER doctors in diagnostic accuracy, alongside Google DeepMind's complementary \"co-clinician\" approach. We also cover Anthropic's aggressive global expansion—new offices in Sydney and a major workforce partnership with Japan's NEC—signaling a shift from research lab to enterprise powerhouse. Finally, the episode explores mounting tensions in creative industries as the Oscars bans AI-generated content and a major AI startup faces backlash for allegedly using an artist's work without permission, reflecting a broader bifurcation in how different markets will treat AI-generated",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-01",
       "summary": "# Episode Summary\n\nThis week in AI is dominated by massive funding and competitive shifts: Anthropic is closing what could be the largest private AI funding round ever at a $850-900B valuation, with investors asked to commit within 48 hours, while simultaneously deepening its strategic partnership with Amazon on compute infrastructure. Meanwhile, Databricks is repositioning itself as the operational backbone for AI agents with Lakebase, a unified database that collapses the boundary between transactional and analytical systems—a move that could reshape the competitive landscape against incumbents like Snowflake and cloud providers. The episode also covers a humorous moment where OpenAI publicly criticized Anthropic's restricted cybersecurity AI tool,",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-15",
       "summary": "# Episode Summary\n\nThis episode dives into the intensifying enterprise AI agent race, with Databricks unveiling Agent Bricks—a governed platform positioning data governance as the key to production-ready AI agents in regulated industries. Meanwhile, Google quietly released Gemma 4 with full offline inference on iPhone, opening new possibilities for edge AI development without cloud dependencies. The show also explores Anthropic's complex positioning: simultaneously briefing the Trump administration on cybersecurity tools while in legal disputes with the federal government, while investor sentiment increasingly favors Anthropic's focused approach over OpenAI's rapid expansion into new markets.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-14",
-      "summary": "# AI Tuesday: OpenAI Enters Personal Finance, Databricks Democratizes Data Apps, and a Troubling Industry Divide Emerges\n\nOpenAI's acquisition of financial startup Hiro signals an aggressive push to embed ChatGPT into everyday financial management, raising both product and privacy questions as the company expands beyond conversational AI into intimate user data. Meanwhile, Databricks' new integration with app-builder Lovable is democratizing enterprise data access, allowing non-technical teams to build data-driven applications without becoming dependent on data engineers. But overshadowing both moves is Stanford's latest AI Index report, which reveals a stark disconnect: industry insiders are optimistic about AI's future while",
       "keyTopics": []
     }
   ]
