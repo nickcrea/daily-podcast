@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-05",
+      "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping the AI industry: Anthropic's launch of a dedicated enterprise AI services company backed by heavyweight financial partners (Blackstone, Hellman & Friedman, and Goldman Sachs), signaling the shift from research lab to full-stack enterprise competitor; Sierra AI's $950 million funding round positioning them to challenge CRM giants like Salesforce and ServiceNow in the AI customer experience space; and a critical gap in how companies are actually deploying AI—individual productivity gains aren't translating into organizational learning because the insights stay siloed in chat windows rather than feeding back into institutional knowledge systems. The episode also flags Google Chrome's silent installation of a",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-04",
       "summary": "# Episode Summary\n\nThis week's episode digs into AI's breakthrough moment in emergency medicine, where OpenAI's o1 model outperformed human ER doctors in diagnostic accuracy, alongside Google DeepMind's complementary \"co-clinician\" approach. We also cover Anthropic's aggressive global expansion—new offices in Sydney and a major workforce partnership with Japan's NEC—signaling a shift from research lab to enterprise powerhouse. Finally, the episode explores mounting tensions in creative industries as the Oscars bans AI-generated content and a major AI startup faces backlash for allegedly using an artist's work without permission, reflecting a broader bifurcation in how different markets will treat AI-generated",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-16",
       "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping enterprise AI: Databricks' launch of Unity AI Gateway for governed agent infrastructure with secure Model Context Protocol connections, OpenAI's expanded Agents SDK focusing on safety and reliability, and a federal court ruling that AI chat conversations lack attorney-client privilege—a decision with significant implications for enterprise policy around sensitive discussions with AI tools. The episode also highlights Hightouch's impressive $100M ARR milestone driven by AI agents for marketing automation, and Anthropic's appointment of Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust board, signaling a commitment to governance and institutional credibility.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-15",
-      "summary": "# Episode Summary\n\nThis episode dives into the intensifying enterprise AI agent race, with Databricks unveiling Agent Bricks—a governed platform positioning data governance as the key to production-ready AI agents in regulated industries. Meanwhile, Google quietly released Gemma 4 with full offline inference on iPhone, opening new possibilities for edge AI development without cloud dependencies. The show also explores Anthropic's complex positioning: simultaneously briefing the Trump administration on cybersecurity tools while in legal disputes with the federal government, while investor sentiment increasingly favors Anthropic's focused approach over OpenAI's rapid expansion into new markets.",
       "keyTopics": []
     }
   ]
