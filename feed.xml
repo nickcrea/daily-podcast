@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-05</title>
+      <description># Episode Summary
+
+This episode covers three major developments reshaping the AI industry: Anthropic&apos;s launch of a dedicated enterprise AI services company backed by heavyweight financial partners (Blackstone, Hellman &amp; Friedman, and Goldman Sachs), signaling the shift from research lab to full-stack enterprise competitor; Sierra AI&apos;s $950 million funding round positioning them to challenge CRM giants like Salesforce and ServiceNow in the AI customer experience space; and a critical gap in how companies are actually deploying AI—individual productivity gains aren&apos;t translating into organizational learning because the insights stay siloed in chat windows rather than feeding back into institutional knowledge systems. The episode also flags Google Chrome&apos;s silent installation of a</description>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-05.mp3" length="4372608" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-05.mp3</guid>
+      <itunes:duration>273</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-04</title>
       <description># Episode Summary
 
