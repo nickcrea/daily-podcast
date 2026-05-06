@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-06",
+      "summary": "# Episode Summary\n\nThis episode covers three major AI industry shifts: Anthropic's launch of financial services agents paired with a new enterprise services company signals a deliberate vertical market strategy aimed at regulated industries, while SAP's $1.16 billion acquisition of an 18-month-old German AI startup reflects incumbent enterprise software players moving fast to avoid disruption. Meanwhile, Apple's reported plan to let iOS users choose between third-party AI models could reshape how AI gets distributed to consumers, competing directly against Microsoft's integrated strategy and opening opportunities for model pluralism in the operating system layer.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-05",
       "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping the AI industry: Anthropic's launch of a dedicated enterprise AI services company backed by heavyweight financial partners (Blackstone, Hellman & Friedman, and Goldman Sachs), signaling the shift from research lab to full-stack enterprise competitor; Sierra AI's $950 million funding round positioning them to challenge CRM giants like Salesforce and ServiceNow in the AI customer experience space; and a critical gap in how companies are actually deploying AI—individual productivity gains aren't translating into organizational learning because the insights stay siloed in chat windows rather than feeding back into institutional knowledge systems. The episode also flags Google Chrome's silent installation of a",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-17",
       "summary": "# Episode Summary\n\nThis week in AI infrastructure and enterprise tooling: Anthropic shipped Claude Opus 4.7, positioning it as a reliability and reasoning upgrade for complex enterprise tasks while expanding compute partnerships with Google and Broadcom, even as OpenAI upgraded its Codex agentic coding tool to compete directly in the developer space. Meanwhile, Databricks made a quiet but significant push into unstructured data with Document Intelligence and Lakeflow, addressing the reality that 80% of enterprise knowledge lives outside structured data warehouses—a gap that's become critical as production AI agents move from demos to real deployments.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-16",
-      "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping enterprise AI: Databricks' launch of Unity AI Gateway for governed agent infrastructure with secure Model Context Protocol connections, OpenAI's expanded Agents SDK focusing on safety and reliability, and a federal court ruling that AI chat conversations lack attorney-client privilege—a decision with significant implications for enterprise policy around sensitive discussions with AI tools. The episode also highlights Hightouch's impressive $100M ARR milestone driven by AI agents for marketing automation, and Anthropic's appointment of Novartis CEO Vas Narasimhan to its Long-Term Benefit Trust board, signaling a commitment to governance and institutional credibility.",
       "keyTopics": []
     }
   ]
