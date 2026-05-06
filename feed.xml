@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-06</title>
+      <description># Episode Summary
+
+This episode covers three major AI industry shifts: Anthropic&apos;s launch of financial services agents paired with a new enterprise services company signals a deliberate vertical market strategy aimed at regulated industries, while SAP&apos;s $1.16 billion acquisition of an 18-month-old German AI startup reflects incumbent enterprise software players moving fast to avoid disruption. Meanwhile, Apple&apos;s reported plan to let iOS users choose between third-party AI models could reshape how AI gets distributed to consumers, competing directly against Microsoft&apos;s integrated strategy and opening opportunities for model pluralism in the operating system layer.</description>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-06.mp3" length="4742784" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-06.mp3</guid>
+      <itunes:duration>296</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-05</title>
       <description># Episode Summary
 
