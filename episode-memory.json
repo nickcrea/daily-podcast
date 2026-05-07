@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-07",
+      "summary": "# Episode Summary\n\nThis episode covers Anthropic's strategic expansion into enterprise AI, highlighted by a new compute partnership with SpaceX and increased usage limits that signal the company's shift from research lab to full-stack enterprise technology provider. The discussion then pivots to why many enterprise AI transformations are stalling—according to Databricks research, the bottleneck isn't technology but rather organizational structure and talent transformation, a message aimed at enterprise leaders beyond just engineers. Finally, the episode explores emerging infrastructure players like xAI potentially becoming \"neoclouds\" that serve AI workloads differently than legacy hyperscalers, plus a brief note on Perplexity and Snap's amicable deal breakup",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-06",
       "summary": "# Episode Summary\n\nThis episode covers three major AI industry shifts: Anthropic's launch of financial services agents paired with a new enterprise services company signals a deliberate vertical market strategy aimed at regulated industries, while SAP's $1.16 billion acquisition of an 18-month-old German AI startup reflects incumbent enterprise software players moving fast to avoid disruption. Meanwhile, Apple's reported plan to let iOS users choose between third-party AI models could reshape how AI gets distributed to consumers, competing directly against Microsoft's integrated strategy and opening opportunities for model pluralism in the operating system layer.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-20",
       "summary": "# Episode Summary\n\nThis episode covers three major AI developments: Anthropic's launch of Claude Design, a new AI-native design tool positioning them as a competitor to Figma; Databricks' rollout of Genie Agent Mode for autonomous multi-step data analysis and expanded coding agent governance through Unity AI Gateway to address emerging security concerns in enterprise AI deployments. The episode also flags an emerging story about the NSA allegedly using Anthropic technology it shouldn't have access to, which could create significant optics problems for a company built on responsible AI principles.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-17",
-      "summary": "# Episode Summary\n\nThis week in AI infrastructure and enterprise tooling: Anthropic shipped Claude Opus 4.7, positioning it as a reliability and reasoning upgrade for complex enterprise tasks while expanding compute partnerships with Google and Broadcom, even as OpenAI upgraded its Codex agentic coding tool to compete directly in the developer space. Meanwhile, Databricks made a quiet but significant push into unstructured data with Document Intelligence and Lakeflow, addressing the reality that 80% of enterprise knowledge lives outside structured data warehouses—a gap that's become critical as production AI agents move from demos to real deployments.",
       "keyTopics": []
     }
   ]
