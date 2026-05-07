@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-07</title>
+      <description># Episode Summary
+
+This episode covers Anthropic&apos;s strategic expansion into enterprise AI, highlighted by a new compute partnership with SpaceX and increased usage limits that signal the company&apos;s shift from research lab to full-stack enterprise technology provider. The discussion then pivots to why many enterprise AI transformations are stalling—according to Databricks research, the bottleneck isn&apos;t technology but rather organizational structure and talent transformation, a message aimed at enterprise leaders beyond just engineers. Finally, the episode explores emerging infrastructure players like xAI potentially becoming &quot;neoclouds&quot; that serve AI workloads differently than legacy hyperscalers, plus a brief note on Perplexity and Snap&apos;s amicable deal breakup</description>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-07.mp3" length="4082304" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-07.mp3</guid>
+      <itunes:duration>255</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-06</title>
       <description># Episode Summary
 
