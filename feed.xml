@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-08</title>
+      <description># Episode Summary
+
+This episode covers three major developments in AI: Railway&apos;s $100M Series B funding signals a shift toward AI-native cloud infrastructure designed for modern workloads rather than legacy cloud primitives, while OpenAI&apos;s rising model prices are pushing teams to build cost-aware architectures and reconsider open-source alternatives. The hosts also highlight a research breakthrough in AI interpretability—converting Claude&apos;s internal reasoning into readable text—which could be transformative for enterprise trust, and discuss practical AI applications like operating room optimization that depend more on organizational readiness than technology.</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-08.mp3" length="4241856" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-08.mp3</guid>
+      <itunes:duration>265</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-07</title>
       <description># Episode Summary
 
