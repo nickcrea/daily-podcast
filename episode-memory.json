@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-08",
+      "summary": "# Episode Summary\n\nThis episode covers three major developments in AI: Railway's $100M Series B funding signals a shift toward AI-native cloud infrastructure designed for modern workloads rather than legacy cloud primitives, while OpenAI's rising model prices are pushing teams to build cost-aware architectures and reconsider open-source alternatives. The hosts also highlight a research breakthrough in AI interpretability—converting Claude's internal reasoning into readable text—which could be transformative for enterprise trust, and discuss practical AI applications like operating room optimization that depend more on organizational readiness than technology.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-07",
       "summary": "# Episode Summary\n\nThis episode covers Anthropic's strategic expansion into enterprise AI, highlighted by a new compute partnership with SpaceX and increased usage limits that signal the company's shift from research lab to full-stack enterprise technology provider. The discussion then pivots to why many enterprise AI transformations are stalling—according to Databricks research, the bottleneck isn't technology but rather organizational structure and talent transformation, a message aimed at enterprise leaders beyond just engineers. Finally, the episode explores emerging infrastructure players like xAI potentially becoming \"neoclouds\" that serve AI workloads differently than legacy hyperscalers, plus a brief note on Perplexity and Snap's amicable deal breakup",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-21",
       "summary": "# Episode Summary\n\nAmazon is investing another $5 billion into AI startup Anthropic in exchange for a $100 billion commitment to use Amazon's cloud services—a major infrastructure lock-in that signals how compute availability has become the key competitive battleground in frontier AI. Meanwhile, reporting suggests the NSA is using a restricted Anthropic model called Mythos without authorization, creating a credibility test for the company's responsible AI brand. Google continues shipping aggressively with new robotics reasoning models and offline-capable versions of Gemini, while Databricks methodically strengthens its enterprise appeal through data governance features and SaaS integrations that appeal to regulated industries.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-20",
-      "summary": "# Episode Summary\n\nThis episode covers three major AI developments: Anthropic's launch of Claude Design, a new AI-native design tool positioning them as a competitor to Figma; Databricks' rollout of Genie Agent Mode for autonomous multi-step data analysis and expanded coding agent governance through Unity AI Gateway to address emerging security concerns in enterprise AI deployments. The episode also flags an emerging story about the NSA allegedly using Anthropic technology it shouldn't have access to, which could create significant optics problems for a company built on responsible AI principles.",
       "keyTopics": []
     }
   ]
