@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-12</title>
+      <description># Episode Summary
+
+This episode covers three major AI developments: Vapi&apos;s rise to a $500 million valuation after winning Amazon Ring&apos;s business signals that AI voice infrastructure is moving from proof-of-concept to enterprise scale, while General Motors&apos; public restructuring toward AI-specialized roles demonstrates how traditional industries are fundamentally reshaping their workforces. On the research side, a new study challenges the reliability of attention maps in vision-language models, revealing that sharp focus on the right image regions doesn&apos;t guarantee accurate answers—a critical finding for teams deploying these systems in production.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-12.mp3" length="4188864" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-12.mp3</guid>
+      <itunes:duration>262</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-11</title>
       <description># Episode Summary
 
