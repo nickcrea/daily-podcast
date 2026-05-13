@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-13",
+      "summary": "# Data and AI Daily — Wednesday, May 13\n\nThis episode covers four major developments reshaping enterprise AI and data infrastructure: Databricks' new Catalog Commits feature, which aligns Delta Lake with open standards to reduce vendor lock-in; Google DeepMind's AlphaEvolve coding agent, which has already discovered algorithmic improvements and optimized internal infrastructure; a new Medicare payment model (ACCESS) that creates the first reimbursement pathway for AI healthcare agents; and growing open-source competition to expensive AI coding tools like Claude Code. Together, these stories signal a shift toward open standards, policy-enabled deployment, and cost-conscious alternatives in enterprise AI.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-12",
       "summary": "# Episode Summary\n\nThis episode covers three major AI developments: Vapi's rise to a $500 million valuation after winning Amazon Ring's business signals that AI voice infrastructure is moving from proof-of-concept to enterprise scale, while General Motors' public restructuring toward AI-specialized roles demonstrates how traditional industries are fundamentally reshaping their workforces. On the research side, a new study challenges the reliability of attention maps in vision-language models, revealing that sharp focus on the right image regions doesn't guarantee accurate answers—a critical finding for teams deploying these systems in production.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-24",
       "summary": "# Episode Summary\n\nOpenAI's new GPT-5.5 frontier model launches with a strategic partnership from Databricks, positioning the platform as the enterprise layer for running cutting-edge AI safely against proprietary data. Databricks also released Lakeflow Designer to public preview—a visual pipeline-building tool that could consolidate data engineering workflows within their lakehouse ecosystem. Meanwhile, Meta's deal to use Amazon's custom CPUs for AI agents signals a shift in infrastructure strategy: the hardware powering agent workloads may look fundamentally different from GPU-heavy model training, with real cost and efficiency implications for the AI infrastructure layer.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-23",
-      "summary": "# Episode Summary\n\nThis episode explores whether LLM agents can handle critical database tasks like query optimization, breaking down Databricks' research into the boundaries of AI reasoning in production data environments. We also cover Google's aggressive shipping pace across robotics, speech, open models, and enterprise productivity tools, plus the surprising SpaceX bid to acquire AI coding tool Cursor for up to $60 billion—a moment that reframes the market value of AI-accelerated developer infrastructure.",
       "keyTopics": []
     }
   ]
