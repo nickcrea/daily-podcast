@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-13</title>
+      <description># Data and AI Daily — Wednesday, May 13
+
+This episode covers four major developments reshaping enterprise AI and data infrastructure: Databricks&apos; new Catalog Commits feature, which aligns Delta Lake with open standards to reduce vendor lock-in; Google DeepMind&apos;s AlphaEvolve coding agent, which has already discovered algorithmic improvements and optimized internal infrastructure; a new Medicare payment model (ACCESS) that creates the first reimbursement pathway for AI healthcare agents; and growing open-source competition to expensive AI coding tools like Claude Code. Together, these stories signal a shift toward open standards, policy-enabled deployment, and cost-conscious alternatives in enterprise AI.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-13.mp3" length="4047360" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-13.mp3</guid>
+      <itunes:duration>253</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-12</title>
       <description># Episode Summary
 
