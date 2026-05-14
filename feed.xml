@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-14</title>
+      <description># Episode Summary
+
+This episode covers three major developments shaping enterprise AI adoption: Anthropic&apos;s new Claude for Small Business tier, which targets companies too large for free tools but lacking enterprise infrastructure; Databricks&apos; expanded Unity Catalog with attribute-based access control and automated data classification, addressing the governance bottlenecks holding back regulated industry AI deployment; and Clio&apos;s achievement of $500M in annual recurring revenue, demonstrating that vertical AI has matured enough to drive massive ROI in traditionally conservative fields like law. The episode also explores the energy infrastructure crisis threatening AI scaling, with xAI&apos;s controversial turbine operation highlighting how compute demands are outpacing the power grid.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-14.mp3" length="4288320" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-14.mp3</guid>
+      <itunes:duration>268</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-13</title>
       <description># Data and AI Daily — Wednesday, May 13
 
