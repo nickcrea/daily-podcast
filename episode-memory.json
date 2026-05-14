@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-14",
+      "summary": "# Episode Summary\n\nThis episode covers three major developments shaping enterprise AI adoption: Anthropic's new Claude for Small Business tier, which targets companies too large for free tools but lacking enterprise infrastructure; Databricks' expanded Unity Catalog with attribute-based access control and automated data classification, addressing the governance bottlenecks holding back regulated industry AI deployment; and Clio's achievement of $500M in annual recurring revenue, demonstrating that vertical AI has matured enough to drive massive ROI in traditionally conservative fields like law. The episode also explores the energy infrastructure crisis threatening AI scaling, with xAI's controversial turbine operation highlighting how compute demands are outpacing the power grid.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-13",
       "summary": "# Data and AI Daily — Wednesday, May 13\n\nThis episode covers four major developments reshaping enterprise AI and data infrastructure: Databricks' new Catalog Commits feature, which aligns Delta Lake with open standards to reduce vendor lock-in; Google DeepMind's AlphaEvolve coding agent, which has already discovered algorithmic improvements and optimized internal infrastructure; a new Medicare payment model (ACCESS) that creates the first reimbursement pathway for AI healthcare agents; and growing open-source competition to expensive AI coding tools like Claude Code. Together, these stories signal a shift toward open standards, policy-enabled deployment, and cost-conscious alternatives in enterprise AI.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-27",
       "summary": "# Episode Summary\n\nThis episode covers three major developments in enterprise AI: agentic AI systems moving into production deployments, exemplified by Databricks' LangGuard governance platform; significant new regulatory requirements for AI in banking through updated Federal Reserve Model Risk Management guidance; and Anthropic's experimental marketplace where AI agents autonomously buy and sell goods from each other. The discussion also touches on Google's rapid product releases including new open-source models and distributed training research, positioning major players as they compete to own enterprise AI infrastructure and governance layers.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-24",
-      "summary": "# Episode Summary\n\nOpenAI's new GPT-5.5 frontier model launches with a strategic partnership from Databricks, positioning the platform as the enterprise layer for running cutting-edge AI safely against proprietary data. Databricks also released Lakeflow Designer to public preview—a visual pipeline-building tool that could consolidate data engineering workflows within their lakehouse ecosystem. Meanwhile, Meta's deal to use Amazon's custom CPUs for AI agents signals a shift in infrastructure strategy: the hardware powering agent workloads may look fundamentally different from GPU-heavy model training, with real cost and efficiency implications for the AI infrastructure layer.",
       "keyTopics": []
     }
   ]
