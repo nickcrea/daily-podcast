@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-15",
+      "summary": "# Episode Summary\n\nAnthropic makes bold moves across multiple fronts this week—partnering with the Gates Foundation on global health AI and expanding enterprise deployments with PwC—while questions swirl around whether their powerful \"Mythos\" model is being withheld for safety or cost reasons. Meanwhile, Databricks continues strengthening its competitive position by opening Unity Catalog APIs for better interoperability, signaling a shift toward less proprietary lock-in across the data ecosystem. The episode closes on a high-stakes bet: a new startup founded by former Salesforce scientist Richard Socher just raised $650 million to build self-improving AI systems that can autonomously enhance their own capabilities—a concept that",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-14",
       "summary": "# Episode Summary\n\nThis episode covers three major developments shaping enterprise AI adoption: Anthropic's new Claude for Small Business tier, which targets companies too large for free tools but lacking enterprise infrastructure; Databricks' expanded Unity Catalog with attribute-based access control and automated data classification, addressing the governance bottlenecks holding back regulated industry AI deployment; and Clio's achievement of $500M in annual recurring revenue, demonstrating that vertical AI has matured enough to drive massive ROI in traditionally conservative fields like law. The episode also explores the energy infrastructure crisis threatening AI scaling, with xAI's controversial turbine operation highlighting how compute demands are outpacing the power grid.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-28",
       "summary": "# Data and AI Daily Summary\n\nThis episode covers three major stories reshaping the AI industry: OpenAI and Microsoft have ended their exclusive partnership, freeing OpenAI to sell on AWS alongside Amazon's existing deal with Anthropic and putting pressure on Microsoft's enterprise AI strategy. David Silver's new lab, Ineffable Intelligence, has raised $1.1 billion on a bold bet that AI can learn without human-generated data—challenging a foundational assumption of the current AI industry. Databricks released the next generation of Genie, its natural language data interface, positioning it as critical infrastructure for enterprise AI agents and agentic workflows, while also addressing security concerns highlighted by a major data breach affecting 40,",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-27",
-      "summary": "# Episode Summary\n\nThis episode covers three major developments in enterprise AI: agentic AI systems moving into production deployments, exemplified by Databricks' LangGuard governance platform; significant new regulatory requirements for AI in banking through updated Federal Reserve Model Risk Management guidance; and Anthropic's experimental marketplace where AI agents autonomously buy and sell goods from each other. The discussion also touches on Google's rapid product releases including new open-source models and distributed training research, positioning major players as they compete to own enterprise AI infrastructure and governance layers.",
       "keyTopics": []
     }
   ]
