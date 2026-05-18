@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-18</title>
+      <description># Episode Summary
+
+This episode explores three major developments reshaping tech and healthcare: Databricks&apos; argument that commercial healthcare data infrastructure should enable real-time patient identification and treatment tracking—using transthyretin amyloid cardiomyopathy as a case study—alongside their new sales intelligence tool built on their lakehouse platform. The conversation also covers the OpenAI-Musk trial&apos;s conclusion, which centered on questions of trust in AI leadership as OpenAI expands commercially, and Railway&apos;s quiet $100M Series B funding round positioning itself as an AI-native cloud alternative to AWS. Throughout, the hosts emphasize the importance of purposeful AI investments tied to specific problems rather than FOMO-driven</description>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-18.mp3" length="4322880" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-18.mp3</guid>
+      <itunes:duration>270</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-15</title>
       <description># Episode Summary
 
