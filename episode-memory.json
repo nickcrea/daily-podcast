@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-18",
+      "summary": "# Episode Summary\n\nThis episode explores three major developments reshaping tech and healthcare: Databricks' argument that commercial healthcare data infrastructure should enable real-time patient identification and treatment tracking—using transthyretin amyloid cardiomyopathy as a case study—alongside their new sales intelligence tool built on their lakehouse platform. The conversation also covers the OpenAI-Musk trial's conclusion, which centered on questions of trust in AI leadership as OpenAI expands commercially, and Railway's quiet $100M Series B funding round positioning itself as an AI-native cloud alternative to AWS. Throughout, the hosts emphasize the importance of purposeful AI investments tied to specific problems rather than FOMO-driven",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-15",
       "summary": "# Episode Summary\n\nAnthropic makes bold moves across multiple fronts this week—partnering with the Gates Foundation on global health AI and expanding enterprise deployments with PwC—while questions swirl around whether their powerful \"Mythos\" model is being withheld for safety or cost reasons. Meanwhile, Databricks continues strengthening its competitive position by opening Unity Catalog APIs for better interoperability, signaling a shift toward less proprietary lock-in across the data ecosystem. The episode closes on a high-stakes bet: a new startup founded by former Salesforce scientist Richard Socher just raised $650 million to build self-improving AI systems that can autonomously enhance their own capabilities—a concept that",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-29",
       "summary": "# Episode Summary\n\nThis episode covers three major AI industry developments: OpenAI's rapid partnership with AWS to integrate its models into Amazon Bedrock, positioning AWS as a neutral marketplace for frontier AI models and threatening Microsoft's Azure dominance; and Databricks' push into agentic data engineering with Genie Code and Lakeflow, enabling data engineers to generate production-ready pipelines using natural language across healthcare, public sector, and cybersecurity verticals. The episode also explores Google's shipping momentum with Gemma 4 open models and distributed training research, alongside emerging tensions in defense AI contracting as companies like Scout AI raise capital for autonomous weapons systems while others like Anthropic draw ethical lines.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-28",
-      "summary": "# Data and AI Daily Summary\n\nThis episode covers three major stories reshaping the AI industry: OpenAI and Microsoft have ended their exclusive partnership, freeing OpenAI to sell on AWS alongside Amazon's existing deal with Anthropic and putting pressure on Microsoft's enterprise AI strategy. David Silver's new lab, Ineffable Intelligence, has raised $1.1 billion on a bold bet that AI can learn without human-generated data—challenging a foundational assumption of the current AI industry. Databricks released the next generation of Genie, its natural language data interface, positioning it as critical infrastructure for enterprise AI agents and agentic workflows, while also addressing security concerns highlighted by a major data breach affecting 40,",
       "keyTopics": []
     }
   ]
