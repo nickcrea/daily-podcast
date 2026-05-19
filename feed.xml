@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-19</title>
+      <description># Episode Summary
+
+Anthropic is on a major growth streak with a massive enterprise deal embedding Claude across KPMG&apos;s 276,000-person workforce, following similar deployments at PwC — positioning the consulting giants as distribution channels into enterprises. The company simultaneously acquired Stainless, a developer tools startup already used by competitors, while facing IPO speculation that raises questions about whether commercial pressure could conflict with its safety-first mission. Beyond Anthropic, Deutsche Börse&apos;s successful use of AI to automate notebook migration demonstrates practical, high-stakes applications of generative AI in critical infrastructure, while emerging research like AgentWall highlights the growing need for runtime safety layers as AI agents move from text generation to</description>
+      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-19.mp3" length="3962112" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-19.mp3</guid>
+      <itunes:duration>248</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-18</title>
       <description># Episode Summary
 
