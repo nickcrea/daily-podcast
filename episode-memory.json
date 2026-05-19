@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-19",
+      "summary": "# Episode Summary\n\nAnthropic is on a major growth streak with a massive enterprise deal embedding Claude across KPMG's 276,000-person workforce, following similar deployments at PwC — positioning the consulting giants as distribution channels into enterprises. The company simultaneously acquired Stainless, a developer tools startup already used by competitors, while facing IPO speculation that raises questions about whether commercial pressure could conflict with its safety-first mission. Beyond Anthropic, Deutsche Börse's successful use of AI to automate notebook migration demonstrates practical, high-stakes applications of generative AI in critical infrastructure, while emerging research like AgentWall highlights the growing need for runtime safety layers as AI agents move from text generation to",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-18",
       "summary": "# Episode Summary\n\nThis episode explores three major developments reshaping tech and healthcare: Databricks' argument that commercial healthcare data infrastructure should enable real-time patient identification and treatment tracking—using transthyretin amyloid cardiomyopathy as a case study—alongside their new sales intelligence tool built on their lakehouse platform. The conversation also covers the OpenAI-Musk trial's conclusion, which centered on questions of trust in AI leadership as OpenAI expands commercially, and Railway's quiet $100M Series B funding round positioning itself as an AI-native cloud alternative to AWS. Throughout, the hosts emphasize the importance of purposeful AI investments tied to specific problems rather than FOMO-driven",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-04-30",
       "summary": "# Episode Summary\n\nThis episode covers three major stories shaping the AI and data infrastructure landscape: Anthropic's reported $50 billion fundraise at an $850-900 billion valuation, signaling massive capital concentration in frontier AI models; Databricks' strategic move into operational databases with Lakebase, collapsing the traditional boundary between transactional and analytical systems to enable AI agents; and a philosophical pushback from the Zig programming language community against AI-generated code contributions, highlighting ongoing tensions between AI productivity gains and code quality concerns in high-stakes contexts. Additional coverage includes research on alignment vulnerabilities in fine-tuned models and Meta's quietly dominant position as one of the world's most-deployed",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-29",
-      "summary": "# Episode Summary\n\nThis episode covers three major AI industry developments: OpenAI's rapid partnership with AWS to integrate its models into Amazon Bedrock, positioning AWS as a neutral marketplace for frontier AI models and threatening Microsoft's Azure dominance; and Databricks' push into agentic data engineering with Genie Code and Lakeflow, enabling data engineers to generate production-ready pipelines using natural language across healthcare, public sector, and cybersecurity verticals. The episode also explores Google's shipping momentum with Gemma 4 open models and distributed training research, alongside emerging tensions in defense AI contracting as companies like Scout AI raise capital for autonomous weapons systems while others like Anthropic draw ethical lines.",
       "keyTopics": []
     }
   ]
