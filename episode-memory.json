@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-20",
+      "summary": "# Episode Summary\n\nGoogle made its biggest AI push in years at IO 2026, redesigning search for the first time in 25 years around an AI-first conversational interface and launching Gemini 3.5 with proactive agents and multimodal capabilities—signaling a bet to make AI the operating layer for digital life. Alongside Google's broad expansion, Databricks demonstrated applied AI impact with real-time fraud detection architecture and a partnership bringing data infrastructure to global health services across 72 countries. Finally, a scrappy startup called NanoCo turned down a $20 million acquisition offer to raise $12 million instead and stay independent, reflecting strong developer demand for affordable alternatives to expensive AI",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-19",
       "summary": "# Episode Summary\n\nAnthropic is on a major growth streak with a massive enterprise deal embedding Claude across KPMG's 276,000-person workforce, following similar deployments at PwC — positioning the consulting giants as distribution channels into enterprises. The company simultaneously acquired Stainless, a developer tools startup already used by competitors, while facing IPO speculation that raises questions about whether commercial pressure could conflict with its safety-first mission. Beyond Anthropic, Deutsche Börse's successful use of AI to automate notebook migration demonstrates practical, high-stakes applications of generative AI in critical infrastructure, while emerging research like AgentWall highlights the growing need for runtime safety layers as AI agents move from text generation to",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-05-01",
       "summary": "# Episode Summary\n\nThis week in AI is dominated by massive funding and competitive shifts: Anthropic is closing what could be the largest private AI funding round ever at a $850-900B valuation, with investors asked to commit within 48 hours, while simultaneously deepening its strategic partnership with Amazon on compute infrastructure. Meanwhile, Databricks is repositioning itself as the operational backbone for AI agents with Lakebase, a unified database that collapses the boundary between transactional and analytical systems—a move that could reshape the competitive landscape against incumbents like Snowflake and cloud providers. The episode also covers a humorous moment where OpenAI publicly criticized Anthropic's restricted cybersecurity AI tool,",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-04-30",
-      "summary": "# Episode Summary\n\nThis episode covers three major stories shaping the AI and data infrastructure landscape: Anthropic's reported $50 billion fundraise at an $850-900 billion valuation, signaling massive capital concentration in frontier AI models; Databricks' strategic move into operational databases with Lakebase, collapsing the traditional boundary between transactional and analytical systems to enable AI agents; and a philosophical pushback from the Zig programming language community against AI-generated code contributions, highlighting ongoing tensions between AI productivity gains and code quality concerns in high-stakes contexts. Additional coverage includes research on alignment vulnerabilities in fine-tuned models and Meta's quietly dominant position as one of the world's most-deployed",
       "keyTopics": []
     }
   ]
