@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-20</title>
+      <description># Episode Summary
+
+Google made its biggest AI push in years at IO 2026, redesigning search for the first time in 25 years around an AI-first conversational interface and launching Gemini 3.5 with proactive agents and multimodal capabilities—signaling a bet to make AI the operating layer for digital life. Alongside Google&apos;s broad expansion, Databricks demonstrated applied AI impact with real-time fraud detection architecture and a partnership bringing data infrastructure to global health services across 72 countries. Finally, a scrappy startup called NanoCo turned down a $20 million acquisition offer to raise $12 million instead and stay independent, reflecting strong developer demand for affordable alternatives to expensive AI</description>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-20.mp3" length="3798144" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-20.mp3</guid>
+      <itunes:duration>237</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-19</title>
       <description># Episode Summary
 
