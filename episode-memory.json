@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-21",
+      "summary": "# Episode Summary\n\nAnthropic is projecting $10.9 billion in quarterly revenue and its first profitable quarter, signaling the company's transformation into a major technology player fueled by enterprise deals with firms like KPMG and PwC. Meanwhile, Brett Adcock raised $700 million for a secretive \"universal AI interface\" startup called Hark valued at $6 billion, betting that the interface layer for AI systems remains wide open—even as Google confirms ads are coming to its redesigned AI-powered search, disappointing users who hoped for a purely intelligence-driven experience. On the infrastructure front, Jensen Huang announced a new $200 billion market for Nvidia CPUs designed for AI",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-20",
       "summary": "# Episode Summary\n\nGoogle made its biggest AI push in years at IO 2026, redesigning search for the first time in 25 years around an AI-first conversational interface and launching Gemini 3.5 with proactive agents and multimodal capabilities—signaling a bet to make AI the operating layer for digital life. Alongside Google's broad expansion, Databricks demonstrated applied AI impact with real-time fraud detection architecture and a partnership bringing data infrastructure to global health services across 72 countries. Finally, a scrappy startup called NanoCo turned down a $20 million acquisition offer to raise $12 million instead and stay independent, reflecting strong developer demand for affordable alternatives to expensive AI",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-05-04",
       "summary": "# Episode Summary\n\nThis week's episode digs into AI's breakthrough moment in emergency medicine, where OpenAI's o1 model outperformed human ER doctors in diagnostic accuracy, alongside Google DeepMind's complementary \"co-clinician\" approach. We also cover Anthropic's aggressive global expansion—new offices in Sydney and a major workforce partnership with Japan's NEC—signaling a shift from research lab to enterprise powerhouse. Finally, the episode explores mounting tensions in creative industries as the Oscars bans AI-generated content and a major AI startup faces backlash for allegedly using an artist's work without permission, reflecting a broader bifurcation in how different markets will treat AI-generated",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-05-01",
-      "summary": "# Episode Summary\n\nThis week in AI is dominated by massive funding and competitive shifts: Anthropic is closing what could be the largest private AI funding round ever at a $850-900B valuation, with investors asked to commit within 48 hours, while simultaneously deepening its strategic partnership with Amazon on compute infrastructure. Meanwhile, Databricks is repositioning itself as the operational backbone for AI agents with Lakebase, a unified database that collapses the boundary between transactional and analytical systems—a move that could reshape the competitive landscape against incumbents like Snowflake and cloud providers. The episode also covers a humorous moment where OpenAI publicly criticized Anthropic's restricted cybersecurity AI tool,",
       "keyTopics": []
     }
   ]
