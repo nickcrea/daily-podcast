@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-22</title>
+      <description># Episode Summary
+
+This week explores AI&apos;s expanding role across enterprise operations, from Databricks&apos; push to make data accessible through conversational AI to the White House&apos;s decision to delay mandatory AI security reviews—signaling a more deregulatory approach. The episode digs into a crucial strategic debate: whether companies cutting headcount in the name of AI efficiency are making a costly mistake, arguing that the real winners will be those pairing AI with experienced teams who understand where the technology actually adds value.</description>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-22.mp3" length="3904512" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-22.mp3</guid>
+      <itunes:duration>244</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-21</title>
       <description># Episode Summary
 
