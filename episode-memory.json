@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-22",
+      "summary": "# Episode Summary\n\nThis week explores AI's expanding role across enterprise operations, from Databricks' push to make data accessible through conversational AI to the White House's decision to delay mandatory AI security reviews—signaling a more deregulatory approach. The episode digs into a crucial strategic debate: whether companies cutting headcount in the name of AI efficiency are making a costly mistake, arguing that the real winners will be those pairing AI with experienced teams who understand where the technology actually adds value.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-21",
       "summary": "# Episode Summary\n\nAnthropic is projecting $10.9 billion in quarterly revenue and its first profitable quarter, signaling the company's transformation into a major technology player fueled by enterprise deals with firms like KPMG and PwC. Meanwhile, Brett Adcock raised $700 million for a secretive \"universal AI interface\" startup called Hark valued at $6 billion, betting that the interface layer for AI systems remains wide open—even as Google confirms ads are coming to its redesigned AI-powered search, disappointing users who hoped for a purely intelligence-driven experience. On the infrastructure front, Jensen Huang announced a new $200 billion market for Nvidia CPUs designed for AI",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-05-05",
       "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping the AI industry: Anthropic's launch of a dedicated enterprise AI services company backed by heavyweight financial partners (Blackstone, Hellman & Friedman, and Goldman Sachs), signaling the shift from research lab to full-stack enterprise competitor; Sierra AI's $950 million funding round positioning them to challenge CRM giants like Salesforce and ServiceNow in the AI customer experience space; and a critical gap in how companies are actually deploying AI—individual productivity gains aren't translating into organizational learning because the insights stay siloed in chat windows rather than feeding back into institutional knowledge systems. The episode also flags Google Chrome's silent installation of a",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-05-04",
-      "summary": "# Episode Summary\n\nThis week's episode digs into AI's breakthrough moment in emergency medicine, where OpenAI's o1 model outperformed human ER doctors in diagnostic accuracy, alongside Google DeepMind's complementary \"co-clinician\" approach. We also cover Anthropic's aggressive global expansion—new offices in Sydney and a major workforce partnership with Japan's NEC—signaling a shift from research lab to enterprise powerhouse. Finally, the episode explores mounting tensions in creative industries as the Oscars bans AI-generated content and a major AI startup faces backlash for allegedly using an artist's work without permission, reflecting a broader bifurcation in how different markets will treat AI-generated",
       "keyTopics": []
     }
   ]
