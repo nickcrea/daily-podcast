@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-25</title>
+      <description># Episode Summary
+
+This episode covers Anthropic&apos;s new transparency initiative Project Glasswing—an effort to open frontier AI development to external scrutiny as the company scales commercially—and explores how Databricks is solving real-world infrastructure challenges across energy and pharma sectors, including a striking fifty-times cost reduction in data engineering for UK energy grid data. The hosts also discuss emerging production needs for AI systems, from prompt caching for open-source models to agent observability, alongside broader governance concerns raised by the Pope about AI concentration and accountability.</description>
+      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-25.mp3" length="4776960" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-25.mp3</guid>
+      <itunes:duration>299</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-22</title>
       <description># Episode Summary
 
