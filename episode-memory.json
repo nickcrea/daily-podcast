@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-25",
+      "summary": "# Episode Summary\n\nThis episode covers Anthropic's new transparency initiative Project Glasswing—an effort to open frontier AI development to external scrutiny as the company scales commercially—and explores how Databricks is solving real-world infrastructure challenges across energy and pharma sectors, including a striking fifty-times cost reduction in data engineering for UK energy grid data. The hosts also discuss emerging production needs for AI systems, from prompt caching for open-source models to agent observability, alongside broader governance concerns raised by the Pope about AI concentration and accountability.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-22",
       "summary": "# Episode Summary\n\nThis week explores AI's expanding role across enterprise operations, from Databricks' push to make data accessible through conversational AI to the White House's decision to delay mandatory AI security reviews—signaling a more deregulatory approach. The episode digs into a crucial strategic debate: whether companies cutting headcount in the name of AI efficiency are making a costly mistake, arguing that the real winners will be those pairing AI with experienced teams who understand where the technology actually adds value.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-05-06",
       "summary": "# Episode Summary\n\nThis episode covers three major AI industry shifts: Anthropic's launch of financial services agents paired with a new enterprise services company signals a deliberate vertical market strategy aimed at regulated industries, while SAP's $1.16 billion acquisition of an 18-month-old German AI startup reflects incumbent enterprise software players moving fast to avoid disruption. Meanwhile, Apple's reported plan to let iOS users choose between third-party AI models could reshape how AI gets distributed to consumers, competing directly against Microsoft's integrated strategy and opening opportunities for model pluralism in the operating system layer.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-05-05",
-      "summary": "# Episode Summary\n\nThis episode covers three major developments reshaping the AI industry: Anthropic's launch of a dedicated enterprise AI services company backed by heavyweight financial partners (Blackstone, Hellman & Friedman, and Goldman Sachs), signaling the shift from research lab to full-stack enterprise competitor; Sierra AI's $950 million funding round positioning them to challenge CRM giants like Salesforce and ServiceNow in the AI customer experience space; and a critical gap in how companies are actually deploying AI—individual productivity gains aren't translating into organizational learning because the insights stay siloed in chat windows rather than feeding back into institutional knowledge systems. The episode also flags Google Chrome's silent installation of a",
       "keyTopics": []
     }
   ]
