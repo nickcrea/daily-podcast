@@ -17,6 +17,16 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>The Data &amp; AI Daily — 2026-05-27</title>
+      <description># Episode Summary
+
+Databricks is making major moves into healthcare and energy with production deployments of its lakehouse architecture—from FHIR-native health data platforms to a 50x cost reduction for UK energy grid data—while a new wave of research is challenging assumptions about AI agent reliability, questioning whether models can truly introspect about their own uncertainty and whether they&apos;re ready to safely modify production systems without guardrails. The episode also covers strategic regional expansions by Anthropic and Google DeepMind as frontier AI labs compete for talent and influence in global AI governance.</description>
+      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-27.mp3" length="3832896" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://nickcrea.github.io/daily-podcast/episodes/AI-Briefing-2026-05-27.mp3</guid>
+      <itunes:duration>240</itunes:duration>
+    </item>
+    <item>
       <title>The Data &amp; AI Daily — 2026-05-25</title>
       <description># Episode Summary
 
