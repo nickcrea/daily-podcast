@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-27",
+      "summary": "# Episode Summary\n\nDatabricks is making major moves into healthcare and energy with production deployments of its lakehouse architecture—from FHIR-native health data platforms to a 50x cost reduction for UK energy grid data—while a new wave of research is challenging assumptions about AI agent reliability, questioning whether models can truly introspect about their own uncertainty and whether they're ready to safely modify production systems without guardrails. The episode also covers strategic regional expansions by Anthropic and Google DeepMind as frontier AI labs compete for talent and influence in global AI governance.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-25",
       "summary": "# Episode Summary\n\nThis episode covers Anthropic's new transparency initiative Project Glasswing—an effort to open frontier AI development to external scrutiny as the company scales commercially—and explores how Databricks is solving real-world infrastructure challenges across energy and pharma sectors, including a striking fifty-times cost reduction in data engineering for UK energy grid data. The hosts also discuss emerging production needs for AI systems, from prompt caching for open-source models to agent observability, alongside broader governance concerns raised by the Pope about AI concentration and accountability.",
       "keyTopics": []
@@ -63,11 +68,6 @@
     {
       "date": "2026-05-07",
       "summary": "# Episode Summary\n\nThis episode covers Anthropic's strategic expansion into enterprise AI, highlighted by a new compute partnership with SpaceX and increased usage limits that signal the company's shift from research lab to full-stack enterprise technology provider. The discussion then pivots to why many enterprise AI transformations are stalling—according to Databricks research, the bottleneck isn't technology but rather organizational structure and talent transformation, a message aimed at enterprise leaders beyond just engineers. Finally, the episode explores emerging infrastructure players like xAI potentially becoming \"neoclouds\" that serve AI workloads differently than legacy hyperscalers, plus a brief note on Perplexity and Snap's amicable deal breakup",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-05-06",
-      "summary": "# Episode Summary\n\nThis episode covers three major AI industry shifts: Anthropic's launch of financial services agents paired with a new enterprise services company signals a deliberate vertical market strategy aimed at regulated industries, while SAP's $1.16 billion acquisition of an 18-month-old German AI startup reflects incumbent enterprise software players moving fast to avoid disruption. Meanwhile, Apple's reported plan to let iOS users choose between third-party AI models could reshape how AI gets distributed to consumers, competing directly against Microsoft's integrated strategy and opening opportunities for model pluralism in the operating system layer.",
       "keyTopics": []
     }
   ]
